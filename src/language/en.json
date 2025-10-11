@@ -1,17 +1,7 @@
 {
   "login": {
-    "title": "Login Form",
-    "email": "Email",
-    "password": "Password",
-    "forgot-password": "Forgot Password",
-    "remember-me": "Remember Me",
-    "login": "Login"
-  },
-  "signup": {
-    "title": "Signup Form",
-    "email": "Email",
-    "password": "Password",
-    "remember-me": "Remember Me",
-    "signup": "Signup"
+    "title": "Login",
+    "username": "Username",
+    "password": "Password"
   }
 }

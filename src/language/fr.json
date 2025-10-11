@@ -1,10 +1,7 @@
 {
   "login": {
-    "title": "Formulaire de Connexion",
-    "email": "E-mail",
-    "password": "Mot de passe",
-    "forgot-password": "Mot de passe oublié",
-    "remember-me": "Se souvenir de moi",
-    "login": "Se connecter"
+    "title": "Connexion",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe"
   }
 }
