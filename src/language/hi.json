@@ -1,7 +1,117 @@
 {
   "login": {
-    "title": "लॉगिन",
-    "username": "उपयोगकर्ता नाम",
-    "password": "पासवर्ड"
+    "title": "लॉगिन फॉर्म",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए",
+    "remember_me": "मुझे याद रखें",
+    "login_button": "लॉगिन"
+  },
+  "forgot_password": {
+    "title": "पासवर्ड भूल गए",
+    "email": "ईमेल",
+    "login": "लॉगिन",
+    "send_reset_link": "रीसेट लिंक भेजें"
+  },
+  "reset_password": {
+    "title": "पासवर्ड रीसेट करें",
+    "email": "अपना ईमेल दर्ज करें",
+    "password": "अपना पासवर्ड दर्ज करें",
+    "update_password": "पासवर्ड अपडेट करें"
+  },
+  "header": {
+    "title": "एमडीएमएस",
+    "langSelector": {
+      "1": "अंग्रेज़ी",
+      "2": "हिंदी",
+      "3": "फ्रेंच"
+    }
+  },
+  "sidebar": {
+    "dashboard": "डैशबोर्ड",
+    "bills_and_payments": "बिल और भुगतान",
+    "meter_data": "मीटर डेटा",
+    "alerts_and_notifications": "अलर्ट और सूचनाएं",
+    "profile_and_settings": "प्रोफाइल और सेटिंग्स",
+    "logs": "लॉग"
+  },
+  "endUser": {
+    "dashboard": {
+      "welcome": "स्वागत है",
+      "last_sync_at": "अंतिम सिंक समय",
+      "as_of": "तक",
+      "data_source": "डेटा स्रोत:",
+      "zone": "ज़ोन:",
+      "mwh": "मेगावाट-घंटा",
+      "due_on": "नियत तारीख",
+      "pending": "लंबित",
+      "current_consumption": "वर्तमान खपत",
+      "this_meter_will": "यह मीटर होगा",
+      "customizing_balance": "बैलेंस अनुकूलित करना",
+      "paid_on": "भुगतान तिथि",
+      "last_payment": "अंतिम भुगतान",
+      "electricity_consumption_overview": "बिजली खपत अवलोकन",
+      "price": "कीमत",
+      "month": "महीना",
+      "quick_actions": "त्वरित कार्य",
+      "day": "दिन",
+      "week": "सप्ताह",
+      "previous": "पिछला",
+      "current": "वर्तमान",
+      "pay_bill": "बिल भरें",
+      "view_bill_history": "विस्तृत उपयोग देखें",
+      "manage_notification": "सूचना प्रबंधित करें",
+      "tiny": "छोटा (एम)",
+      "y_axis_hitting": "वाई-अक्ष (हिटिंग)",
+      "ratio_modelling": "अनुपात (मॉडलिंग)",
+      "average_markdown": "औसत मार्कडाउन"
+    },
+    "bills": {
+      "my_bills": "मेरे बिल",
+      "month": "महीना",
+      "amount": "राशि",
+      "due_date": "नियत तारीख",
+      "status": "स्थिति",
+      "actions": "कार्य",
+      "pending": "लंबित",
+      "new_pay": "नया / भुगतान",
+      "previous": "पिछला",
+      "next": "अगला",
+      "note": "नोट : सभी बिल हर महीने की 1 तारीख को जनरेट किए जाते हैं"
+    },
+    "bill_details": {
+      "bill_details": "बिल विवरण",
+      "date": "तारीख",
+      "starting": "शुरुआत",
+      "convergents": "कन्वर्जेंट्स",
+      "unit": "यूनिट",
+      "download_pdf": "पीडीएफ डाउनलोड करें",
+      "print_bill": "बिल प्रिंट करें",
+      "pay_now": "अभी भुगतान करें"
+    },
+    "usage": {
+      "select_date_range": "तारीख सीमा चुनें",
+      "date": "तारीख",
+      "starting": "शुरुआत",
+      "difference": "अंतर",
+      "notes": "नोट्स"
+    },
+    "profile": {
+      "profile_settings": "प्रोफाइल और सेटिंग्स",
+      "profile": "प्रोफाइल",
+      "security": "सुरक्षा",
+      "notification": "सूचना",
+      "name": "नाम",
+      "user_name": "उपयोगकर्ता नाम",
+      "mobile_no": "मोबाइल नंबर",
+      "save_and_continue": "सहेजें और जारी रखें",
+      "power_password": "पावर पासवर्ड",
+      "pint_password": "पिंट पासवर्ड",
+      "digital_password": "डिजिटल पासवर्ड",
+      "notifications_from": "आप सूचनाएं प्राप्त कर सकते हैं",
+      "email": "ईमेल",
+      "sms": "एसएमएस",
+      "push": "पुश"
+    }
   }
 }

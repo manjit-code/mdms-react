@@ -1,7 +1,120 @@
 {
   "login": {
-    "title": "Login",
-    "username": "Username",
-    "password": "Password"
+    "title": "Login Form",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password",
+    "remember_me": "Remember me",
+    "login_button": "Login"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "email": "Email",
+    "login": "Login",
+    "send_reset_link": "Send Reset Link"
+  },
+  "reset_password": {
+    "title": "Reset Password",
+    "email": "Enter Your Email",
+    "password": "Enter Your Password",
+    "update_password": "Update Password"
+  },
+  "header": {
+    "title": "MDMS",
+    "langSelector": {
+      "1": "en",
+      "2": "hi",
+      "3": "fr"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "bills_and_payments": "Bills & Payments",
+    "meter_data": "Meter Data",
+    "alerts_and_notifications": "Alerts & Notifications",
+    "profile_and_settings": "Profile & Settings",
+    "logs": "Logs"
+  },
+  "endUser": {
+    "dashboard": {
+      "welcome": "Welcome",
+      "last_sync_at": "Last synced at ",
+      "as_of": "As of",
+      "data_source": "Data Source:",
+      "zone": "Zone:",
+      "mwh": "MWh",
+      "due_on": "Due on",
+      "pending": "Pending",
+      "current_consumption": "Current Consumption",
+      "this_months_bill": "This Month's bill",
+      "outstanding_balance": "Outstanding Balance",
+      "paid_on": "Paid on",
+      "last_payment": "Last Payment",
+      "electricity_consumption_overview": "Electricity Consumption Overview",
+      "price": "Price",
+      "month": "Month",
+      "quick_actions": "Quick Actions",
+      "day": "Day",
+      "week": "Week",
+      "previous": "Previous",
+      "current": "Current",
+      "pay_bill": "Pay Bill",
+      "view_bill_history": "View Detailed Usage",
+      "manage_notification": "Manage Notification",
+      "tiny": "Tiny (M)",
+      "y_axis_hitting": "Y-axis (Hitting)",
+      "ratio_modelling": "Ratio (Modelling)",
+      "average_markdown": "Average Markdown"
+    },
+    "bills": {
+      "my_bills": "My Bills",
+      "month": "Month",
+      "amount": "Amount",
+      "due_date": "Due Date",
+      "status": "Status",
+      "actions": "Actions",
+      "pending": "Pending",
+      "paid": "Paid",
+      "view": "View",
+      "pay": "Pay",
+      "previous": "<-Previous",
+      "next": "Next->",
+      "note": "Note : All bills are generated on the 1st of each month"
+    },
+    "bill_details": {
+      "bill_details": "Bill Details",
+      "date": "Date",
+      "starting": "Starting",
+      "convergents": "Convergents",
+      "unit": "Unit",
+      "download_pdf": "Download PDF",
+      "print_bill": "Print Bill",
+      "pay_now": "Pay Now"
+    },
+    "usage": {
+      "select_date_range": "Select Date Range",
+      "date": "Date",
+      "starting": "Starting",
+      "difference": "Difference",
+      "notes": "Notes"
+    },
+    "profile": {
+      "profile_settings": "Profile & Settings",
+      "profile": "Profile",
+      "security": "Security",
+      "notification": "Notification",
+      "name": "name",
+      "email1":"email",
+      "user_name": "User name",
+      "mobile_no": "mobile No.",
+      "save_and_continue": "Save and continue",
+      "current_password": "current password",
+      "new_password": "new password",
+      "confirm_password": "confirm password",
+      "notifications_from": "You can get notifications from",
+      "email": "Email",
+      "sms": "SMS",
+      "push": "Push"
+    }
   }
 }

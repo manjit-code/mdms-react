@@ -27,27 +27,13 @@ function App() {
   }
 
   return (
-    // <div className="p-8">
-    //   <h1 className="text-2xl font-bold mb-4">{t('login.title')}</h1>
-    //   <div className="space-x-2">
-    //     <button onClick={() => i18n.changeLanguage('en')}>
-    //       English
-    //     </button>
-    //     <button onClick={() => i18n.changeLanguage('fr')}>
-    //       France
-    //     </button>
-    //     <button onClick={() => i18n.changeLanguage('hi')}>
-    //       Hindi
-    //     </button>
-    //   </div>
-    // </div>
-    <>
+    <div className="overflow-hidden h-screen">
       <Provider store={store}>
         <PersistGate persistor={persistedStore}>
             <RouterSetup/>
         </PersistGate>
       </Provider>
-    </>
+    </div>
   )
 }
 

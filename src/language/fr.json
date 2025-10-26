@@ -1,7 +1,117 @@
 {
   "login": {
-    "title": "Connexion",
-    "username": "Nom d'utilisateur",
-    "password": "Mot de passe"
+    "title": "Formulaire de Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "forgot_password": "Mot de passe oublié",
+    "remember_me": "Se souvenir de moi",
+    "login_button": "Se connecter"
+  },
+  "forgot_password": {
+    "title": "Mot de passe oublié",
+    "email": "E-mail",
+    "login": "Connexion",
+    "send_reset_link": "Envoyer le lien de réinitialisation"
+  },
+  "reset_password": {
+    "title": "Réinitialiser le mot de passe",
+    "email": "Entrez votre e-mail",
+    "password": "Entrez votre mot de passe",
+    "update_password": "Mettre à jour le mot de passe"
+  },
+  "header": {
+    "title": "MDMS",
+    "langSelector": {
+      "1": "anglais",
+      "2": "hindi",
+      "3": "français"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "bills_and_payments": "Factures et Paiements",
+    "meter_data": "Données du Compteur",
+    "alerts_and_notifications": "Alertes et Notifications",
+    "profile_and_settings": "Profil et Paramètres",
+    "logs": "Journaux"
+  },
+  "endUser": {
+    "dashboard": {
+      "welcome": "Bienvenue",
+      "last_sync_at": "Dernière synchronisation à",
+      "as_of": "En date du",
+      "data_source": "Source des données:",
+      "zone": "Zone:",
+      "mwh": "MWh",
+      "due_on": "Dû le",
+      "pending": "En attente",
+      "current_consumption": "Consommation actuelle",
+      "this_meter_will": "Ce compteur va",
+      "customizing_balance": "Personnalisation du solde",
+      "paid_on": "Payé le",
+      "last_payment": "Dernier paiement",
+      "electricity_consumption_overview": "Aperçu de la consommation d'électricité",
+      "price": "Prix",
+      "month": "Mois",
+      "quick_actions": "Actions rapides",
+      "day": "Jour",
+      "week": "Semaine",
+      "previous": "Précédent",
+      "current": "Actuel",
+      "pay_bill": "Payer la facture",
+      "view_bill_history": "Voir l'utilisation détaillée",
+      "manage_notification": "Gérer les notifications",
+      "tiny": "Petit (M)",
+      "y_axis_hitting": "Axe Y (Impact)",
+      "ratio_modelling": "Ratio (Modélisation)",
+      "average_markdown": "Réduction moyenne"
+    },
+    "bills": {
+      "my_bills": "Mes factures",
+      "month": "Mois",
+      "amount": "Montant",
+      "due_date": "Date d'échéance",
+      "status": "Statut",
+      "actions": "Actions",
+      "pending": "En attente",
+      "new_pay": "Nouveau / Payer",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "note": "Note : Toutes les factures sont générées le 1er de chaque mois"
+    },
+    "bill_details": {
+      "bill_details": "Détails de la facture",
+      "date": "Date",
+      "starting": "Début",
+      "convergents": "Convergents",
+      "unit": "Unité",
+      "download_pdf": "Télécharger PDF",
+      "print_bill": "Imprimer la facture",
+      "pay_now": "Payer maintenant"
+    },
+    "usage": {
+      "select_date_range": "Sélectionner la plage de dates",
+      "date": "Date",
+      "starting": "Début",
+      "difference": "Différence",
+      "notes": "Notes"
+    },
+    "profile": {
+      "profile_settings": "Profil et Paramètres",
+      "profile": "Profil",
+      "security": "Sécurité",
+      "notification": "Notification",
+      "name": "nom",
+      "user_name": "Nom d'utilisateur",
+      "mobile_no": "Numéro de mobile",
+      "save_and_continue": "Enregistrer et continuer",
+      "power_password": "Mot de passe POWER",
+      "pint_password": "Mot de passe PINT",
+      "digital_password": "Mot de passe DIGITAL",
+      "notifications_from": "Vous pouvez recevoir des notifications de",
+      "email": "E-mail",
+      "sms": "SMS",
+      "push": "Push"
+    }
   }
 }
