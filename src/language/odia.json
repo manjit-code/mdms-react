@@ -1,0 +1,346 @@
+{
+  "login": {
+    "login_form": "ଲଗଇନ ଫର୍ମ",
+    "email": "ଇମେଲ",
+    "password": "ପାସୱାର୍ଡ",
+    "forgot_password": "ପାସୱାର୍ଡ ଭୁଲି ଗଲେ",
+    "remember_me": "ମୋତେ ମନେ ରଖ",
+    "login": "ଲଗଇନ",
+    "test_credential": "ପରୀକ୍ଷା କ୍ରେଡେନ୍ସିଆଲ୍ (ଅଟୋଫିଲ୍ କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ)"
+  },
+  "forgot_password": {
+    "title": "ପାସୱାର୍ଡ ଭୁଲି ଗଲେ",
+    "email": "ଇମେଲ",
+    "login": "ଲଗଇନ",
+    "send_reset_link": "ରିସେଟ୍ ଲିଙ୍କ୍ ପଠାନ୍ତୁ"
+  },
+  "reset_password": {
+    "title": "ପାସୱାର୍ଡ ରିସେଟ୍ କରନ୍ତୁ",
+    "email": "ଆପଣଙ୍କର ଇମେଲ ପ୍ରବେଶ କରନ୍ତୁ",
+    "password": "ଆପଣଙ୍କର ପାସୱାର୍ଡ ପ୍ରବେଶ କରନ୍ତୁ",
+    "update_password": "ପାସୱାର୍ଡ ଅପଡେଟ୍ କରନ୍ତୁ"
+  },
+  "header": {
+    "title": "ଏମ୍ଡିଏମ୍ଏସ୍",
+    "langSelector": {
+      "1": "ଇଂରାଜୀ",
+      "2": "ହିନ୍ଦୀ",
+      "3": "ଫ୍ରେଞ୍ଚ"
+    },
+    "my_profile": "ମୋର ପ୍ରୋଫାଇଲ୍",
+    "logout": "ଲଗଆଉଟ୍"
+  },
+  "endUser": {
+    "sidebar": {
+      "dashboard": "ଡ୍ୟାସବୋର୍ଡ",
+      "bills_and_payments": "ବିଲ୍ ଏବଂ ଦେୟ",
+      "meter_data": "ମିଟର୍ ତଥ୍ୟ",
+      "alerts_and_notifications": "ସତର୍କତା ଏବଂ ବିଜ୍ଞପ୍ତି",
+      "profile_and_settings": "ପ୍ରୋଫାଇଲ୍ ଏବଂ ସେଟିଂସ୍",
+      "logs": "ଲଗ୍"
+    },
+    "dashboard": {
+      "welcome": "ସ୍ୱାଗତ",
+      "last_sync_at": "ଶେଷ ସିଙ୍କ୍ ହୋଇଥିଲା",
+      "as_of": "ଯେଉଁ ତାରିଖ ପର୍ଯ୍ୟନ୍ତ",
+      "data_source": "ତଥ୍ୟ ଉତ୍ସ:",
+      "zone": "ଜୋନ୍:",
+      "mwh": "ଏମ୍‌ଡବ୍ଲିଉ‌ଏଚ୍",
+      "due_on": "ଶେଷ ତାରିଖ",
+      "pending": "ବିଚାରାଧୀନ",
+      "current_consumption": "ବର୍ତ୍ତମାନର ବ୍ୟବହାର",
+      "this_months_bill": "ଏହି ମାସର ବିଲ୍",
+      "outstanding_balance": "ବକେୟା ଟଙ୍କା",
+      "paid_on": "ଦେୟ ଦିଆଯାଇଥିଲା",
+      "last_payment": "ଶେଷ ଦେୟ",
+      "electricity_consumption_overview": "ବିଦ୍ୟୁତ୍ ବ୍ୟବହାର ସମୀକ୍ଷା",
+      "price": "ମୂଲ୍ୟ",
+      "month": "ମାସ",
+      "quick_actions": "ଦ୍ରୁତ କାର୍ଯ୍ୟ",
+      "day": "ଦିନ",
+      "week": "ସପ୍ତାହ",
+      "previous": "ପୂର୍ବବର୍ତ୍ତୀ",
+      "current": "ବର୍ତ୍ତମାନ",
+      "pay_bill": "ବିଲ୍ ଦେୟ ଦିଅନ୍ତୁ",
+      "view_bill_history": "ବିସ୍ତୃତ ବ୍ୟବହାର ଦେଖନ୍ତୁ",
+      "manage_notification": "ବିଜ୍ଞପ୍ତି ପରିଚାଳନା କରନ୍ତୁ",
+      "tiny": "ଛୋଟ (ଏମ୍)",
+      "y_axis_hitting": "Y-ଅକ୍ଷ (ହିଟିଂ)",
+      "ratio_modelling": "ଅନୁପାତ (ମଡେଲିଂ)",
+      "average_markdown": "ହାରାହାରି ମାର୍କଡାଉନ୍"
+    },
+    "bills": {
+      "my_bills": "ମୋର ବିଲ୍",
+      "month": "ମାସ",
+      "amount": "ପରିମାଣ",
+      "due_date": "ଶେଷ ତାରିଖ",
+      "status": "ସ୍ଥିତି",
+      "actions": "କାର୍ଯ୍ୟ",
+      "pending": "ବିଚାରାଧୀନ",
+      "paid": "ଦେୟ ଦିଆଯାଇଛି",
+      "view": "ଦେଖନ୍ତୁ",
+      "pay": "ଦେୟ ଦିଅନ୍ତୁ",
+      "previous": "ପୂର୍ବବର୍ତ୍ତୀ",
+      "next": "ପରବର୍ତ୍ତୀ",
+      "note": "ଟିପ୍ପଣୀ : ସମସ୍ତ ବିଲ୍ ପ୍ରତ୍ୟେକ ମାସର 1 ତାରିଖରେ ତିଆରି ହୁଏ"
+    },
+    "bill_details": {
+      "bill_details": "ବିଲ୍ ବିବରଣୀ",
+      "date": "ତାରିଖ",
+      "starting": "ଆରମ୍ଭ",
+      "convergents": "କନଭର୍ଜେଣ୍ଟସ୍",
+      "unit": "ୟୁନିଟ୍",
+      "download_pdf": "ପିଡିଏଫ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+      "print_bill": "ବିଲ୍ ପ୍ରିଣ୍ଟ୍ କରନ୍ତୁ",
+      "pay_now": "ବିଲ୍ ପେମେଣ୍ଟ୍ କରନ୍ତୁ"
+    },
+    "usage": {
+      "select_date_range": "ତାରିଖ ସୀମା ବାଛନ୍ତୁ",
+      "date": "ତାରିଖ",
+      "starting": "ଆରମ୍ଭ",
+      "difference": "ପାର୍ଥକ୍ୟ",
+      "notes": "ଟିପ୍ପଣୀ"
+    },
+    "profile": {
+      "profile_settings": "ପ୍ରୋଫାଇଲ୍ ଏବଂ ସେଟିଂସ୍",
+      "profile": "ପ୍ରୋଫାଇଲ୍",
+      "security": "ସୁରକ୍ଷା",
+      "notification": "ବିଜ୍ଞପ୍ତି",
+      "name": "ନାମ",
+      "email1": "ଇମେଲ",
+      "user_name": "ବ୍ୟବହାରକାରୀ ନାମ",
+      "mobile_no": "ମୋବାଇଲ୍ ନମ୍ବର",
+      "save_and_continue": "ସେଭ୍ କରି ଜାରି ରଖନ୍ତୁ",
+      "current_password": "ବର୍ତ୍ତମାନର ପାସୱାର୍ଡ",
+      "new_password": "ନୂଆ ପାସୱାର୍ଡ",
+      "confirm_password": "ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ",
+      "notifications_from": "ଆପଣ ବିଜ୍ଞପ୍ତି ପାଇପାରିବେ",
+      "email": "ଇମେଲ",
+      "sms": "ଏସଏମଏସ୍",
+      "push": "ପୁସ୍",
+      "loading": "ଲୋଡ୍ ହେଉଛି",
+      "invalid_selection": "ଅବৈଧ ଚୟନ"
+    },
+    "alert_notification": {
+      "no_notification": "କୌଣସି ବିଜ୍ଞପ୍ତି ଚୟନିତ ନୁହେଁ।"
+    },
+    "logs": {
+      "title": "ଲଗ୍ ପେଜ୍"
+    }
+  },
+  "zoneUser": {
+    "sidebar": {
+      "dashborad": "ଡ୍ୟାସବୋର୍ଡ",
+      "meter_management": "ମିଟର୍ ପରିଚାଳନା",
+      "user_management": "ବ୍ୟବହାରକାରୀ ପରିଚାଳନା",
+      "reports_analytics": "ରିପୋର୍ଟ୍ ଏବଂ ବିଶ୍ଲେଷଣ",
+      "settings_notification": "ସେଟିଂ ଏବଂ ବିଜ୍ଞପ୍ତି"
+    },
+    "dashboard": {
+      "zone_dashboard": "ଜୋନ୍ ଡ୍ୟାସବୋର୍ଡ",
+      "active_meters": "ସକ୍ରିୟ ମିଟର୍",
+      "avg_usage": "ହାରାହାରି ବ୍ୟବହାର",
+      "pending_alert": "ବିଚାରାଧୀନ ସତର୍କତା",
+      "analytics_chart": "ବିଶ୍ଲେଷଣ ଚାର୍ଟ",
+      "week": "ସପ୍ତାହ",
+      "month": "ମାସ",
+      "add_meter": "ମିଟର୍ ଯୋଡନ୍ତୁ",
+      "generate_report": "ରିପୋର୍ଟ୍ ଜେନେରେଟ୍ କରନ୍ତୁ"
+    },
+    "meter_management": {
+      "meter_management": "ମିଟର୍ ପରିଚାଳନା",
+      "bulk_operations": "ବଲ୍କ ଅପରେସନ୍",
+      "meter_id": "ମିଟର୍ ଆଇଡି",
+      "zone": "ଜୋନ୍",
+      "owner": "ମାଲିକ",
+      "status": "ସ୍ଥିତି",
+      "last_reading": "ଶେଷ ରିଡିଂ",
+      "more_actions": "ଅଧିକ କାର୍ଯ୍ୟ",
+      "view": "ଦେଖନ୍ତୁ",
+      "edit": "ସଂପାଦନ କରନ୍ତୁ",
+      "active": "ସକ୍ରିୟ",
+      "import_csv": "ସିଏସଭି ଇମ୍ପୋର୍ଟ୍ କରନ୍ତୁ",
+      "export_csv": "ସିଏସଭି ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ",
+      "de_activate_meters": "ମିଟର୍ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
+    },
+    "user_management": {
+      "user_management": "ବ୍ୟବହାରକାରୀ ପରିଚାଳନା",
+      "invite_user": "ବ୍ୟବହାରକାରୀକୁ ନିମନ୍ତ୍ରଣ କରନ୍ତୁ",
+      "name": "ନାମ",
+      "email": "ଇମେଲ",
+      "role": "ଭୂମିକା",
+      "zone": "ଜୋନ୍",
+      "status": "ସ୍ଥିତି",
+      "abc": "ଏବିସି",
+      "id": "ଆଇଡି",
+      "more_actions": "ଅଧିକ କାର୍ଯ୍ୟ",
+      "edit": "ସଂପାଦନ କରନ୍ତୁ",
+      "active": "ସକ୍ରିୟ",
+      "reset_password": "ପାସୱାର୍ଡ ରିସେଟ୍ କରନ୍ତୁ",
+      "search": "ସନ୍ଧାନ କରନ୍ତୁ.."
+    },
+    "reports_and_analytics": {
+      "reports_and_analytics": "ରିପୋର୍ଟ୍ ଏବଂ ବିଶ୍ଲେଷଣ",
+      "trend_of_energy_usage_over_time": "ସମୟ କାଳୀନ ଶକ୍ତି ବ୍ୟବହାରର ପ୍ରବୃତ୍ତି।",
+      "compare_zone_consumption": "ଜୋନ୍ ବ୍ୟବହାର ତୁଳନା କରନ୍ତୁ",
+      "zone": "ଜୋନ୍",
+      "2025": "୨୦୨୫",
+      "mangalore": "ମଙ୍ଗଳୁରୁ",
+      "bajaj": "ବଜାଜ",
+      "pumpwell": "ପମ୍ପୱେଲ୍",
+      "pvs": "ପିଭିଏସ୍",
+      "kottakar": "କୋଟ୍ଟକାର୍",
+      "reports": "ରିପୋର୍ଟ୍",
+      "export_as_csv": "ସିଏସଭି ଭାବରେ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ",
+      "export_as_pdf": "ପିଡିଏଫ୍ ଭାବରେ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ",
+      "meter_id": "ମିଟର୍ ଆଇଡି",
+      "dates": "ତାରିଖଗୁଡିକ",
+      "user_name": "ବ୍ୟବହାରକାରୀ ନାମ",
+      "consumption": "ବ୍ୟବହାର",
+      "status": "ସ୍ଥିତି",
+      "active": "ସକ୍ରିୟ",
+      "de-activated": "ନିଷ୍କ୍ରିୟ",
+      "previous": "ପୂର୍ବବର୍ତ୍ତୀ",
+      "next": "ପରବର୍ତ୍ତୀ"
+    },
+    "setting_and_notifications": {
+      "user_management": "ବ୍ୟବହାରକାରୀ ପରିଚାଳନା",
+      "subtitle": "ଆପଣଙ୍କର ସତର୍କତା ନିୟମ ଏବଂ ଯୋଗାଯୋଗ ପସନ୍ଦଗୁଡିକ ପରିଚାଳନା କରନ୍ତୁ।",
+      "settings": "ସେଟିଂସ୍",
+      "notification": "ବିଜ୍ଞପ୍ତି",
+      "alert_threshold": "ସତର୍କତା ସୀମା",
+      "alert_subtitle": "ଆପଣଙ୍କ ଜୋନ୍ରେ ଥିବା ମିଟର୍ଗୁଡିକ ପାଇଁ ସ୍ୱୟଂଚାଳିତ ସତର୍କତା ଟ୍ରିଗର୍ କରୁଥିବା ବ୍ୟବହାର ସୀମା ସେଟ୍ କରନ୍ତୁ।",
+      "high_consumption": "ଉଚ୍ଚ ବ୍ୟବହାର ସୀମା (କେଡବ୍ଲିଉଏଚ୍)",
+      "low_consumption": "ନିମ୍ନ ବ୍ୟବହାର ସୀମା (କେଡବ୍ଲିଉଏଚ୍)",
+      "abnormal_reading": "ଅସ୍ୱାଭାବିକ ରିଡିଂ ଆବୃତ୍ତି (ଘଣ୍ଟା)",
+      "inactive_meters": "ନିଷ୍କ୍ରିୟ ମିଟର୍ ଅବଧି (ଦିନ)",
+      "day": "ଦିନ",
+      "sunday": "ରବିବାର",
+      "save_and_continue": "ସେଭ୍ କରି ଜାରି ରଖନ୍ତୁ"
+    }
+  },
+  "enterprise": {
+    "sidebar": {
+      "dashboard": "ଡ୍ୟାସବୋର୍ଡ",
+      "zone_management": "ଜୋନ୍ ପରିଚାଳନା",
+      "meter_management": "ମିଟର୍ ପରିଚାଳନା",
+      "user_role_management": "ବ୍ୟବହାରକାରୀ ଏବଂ ଭୂମିକା ପରିଚାଳନା",
+      "audit_logs": "ଅଡିଟ୍ ଲଗ୍",
+      "setting_configuration": "ସେଟିଂ ଏବଂ କନଫିଗରେସନ୍"
+    },
+    "dashboard": {
+      "enterprise_dashboard": "ଏଣ୍ଟରପ୍ରାଇଜ୍ ଡ୍ୟାସବୋର୍ଡ",
+      "recent_alerts": "ସାମ୍ପ୍ରତିକ ସତର୍କତା",
+      "alert": "ସତର୍କତା",
+      "total_zones": "ମୋଟ ଜୋନ୍",
+      "total_meters": "ମୋଟ ମିଟର୍",
+      "critical_alerts": "ଜରୁରୀ ସତର୍କତା",
+      "average_consumption_per_zone": "ପ୍ରତ୍ୟେକ ଜୋନ୍ରେ ହାରାହାରି ବ୍ୟବହାର"
+    },
+    "zone_management": {
+      "zone_management": "ଜୋନ୍ ପରିଚାଳନା",
+      "add_zone": "ଜୋନ୍ ଯୋଡନ୍ତୁ",
+      "zone_id": "ଜୋନ୍ ଆଇଡି",
+      "zone_name": "ଜୋନ୍ ନାମ",
+      "admin_assigned": "ନିୟୋଜିତ ଆଡମିନ୍",
+      "total_meters": "ମୋଟ ମିଟର୍",
+      "status": "ସ୍ଥିତି",
+      "more_action": "ଅଧିକ କାର୍ଯ୍ୟ",
+      "view": "ଦେଖନ୍ତୁ",
+      "edit": "ସଂପାଦନ କରନ୍ତୁ",
+      "delete": "ଡିଲିଟ୍ କରନ୍ତୁ",
+      "add_zone_title": "ଜୋନ୍ ଯୋଡିବା ପାଇଁ ଏହା ଏକ ଡାଏଲୋଗ୍",
+      "admin": "ଆଡମିନ୍",
+      "location": "ଅବସ୍ଥାନ",
+      "description": "ବର୍ଣ୍ଣନା",
+      "address_pincode": "ଠିକଣା କିମ୍ବା ପିନକୋଡ୍",
+      "description_here": "ଏଠାରେ ବର୍ଣ୍ଣନା ଲେଖନ୍ତୁ"
+    },
+    "meter_management": {
+      "meter_id": "ମିଟର୍ ଆଇଡି",
+      "search_placeholder": "ସନ୍ଧାନ କରନ୍ତୁ..",
+      "global_meter_management": "ଗ୍ଲୋବାଲ୍ ମିଟର୍ ପରିଚାଳନା",
+      "add_meter": "ମିଟର୍ ଯୋଡନ୍ତୁ",
+      "zone": "ଜୋନ୍",
+      "owner": "ମାଲିକ",
+      "status": "ସ୍ଥିତି",
+      "last_reading": "ଶେଷ ରିଡିଂ",
+      "more_actions": "ଅଧିକ କାର୍ଯ୍ୟ",
+      "view": "ଦେଖନ୍ତୁ",
+      "edit": "ସଂପାଦନ କରନ୍ତୁ",
+      "delete": "ଡିଲିଟ୍ କରନ୍ତୁ",
+      "trend_chart_title": "ପ୍ରତ୍ୟେକ ଜୋନ୍ର ସମୟ କାଳୀନ ଶକ୍ତି ବ୍ୟବହାରର ପ୍ରବୃତ୍ତି"
+    },
+    "user_role_management": {
+      "user_role_management": "ବ୍ୟବହାରକାରୀ ଏବଂ ଭୂମିକା ପରିଚାଳନା",
+      "invite_user": "ବ୍ୟବହାରକାରୀକୁ ନିମନ୍ତ୍ରଣ କରନ୍ତୁ",
+      "invite_user_description": "ବ୍ୟବହାରକାରୀକୁ ନିମନ୍ତ୍ରଣ କରିବା ପାଇଁ ଏହା ଏକ ଡାଏଲୋଗ୍।",
+      "comparison_chart_title": "ପ୍ରତ୍ୟେକ ବର୍ଷରେ ସକ୍ରିୟ ଏବଂ ନିଷ୍କ୍ରିୟ ବ୍ୟବହାରକାରୀଙ୍କ ମଧ୍ୟରେ ତୁଳନା",
+      "user_id": "ବ୍ୟବହାରକାରୀ ଆଇଡି",
+      "name": "ନାମ",
+      "email": "ଇମେଲ",
+      "role": "ଭୂମିକା",
+      "status": "ସ୍ଥିତି"
+    },
+    "setting_configuration": {
+      "title": "ସେଟିଂ ଏବଂ କନଫିଗରେସନ୍",
+      "subtitle": "ସଂଗଠନ-ବ୍ୟାପୀ କନଫିଗରେସନ୍ ଏବଂ ଏକୀକରଣଗୁଡିକ ପରିଚାଳନା କରନ୍ତୁ",
+      "policies_title": "ନୀତି ଏବଂ ନିୟମ",
+      "policies_subtitle": "ଏଣ୍ଟରପ୍ରାଇଜ୍-ବ୍ୟାପୀ କାର୍ଯ୍ୟକାରୀ ସୀମା ଏବଂ ରିଟେନସନ୍ ନୀତି ବ୍ୟାଖ୍ୟା କରନ୍ତୁ।",
+      "data_retention": "ତଥ୍ୟ ରିଟେନସନ୍ ଅବଧି (ଦିନରେ)",
+      "auto_logout": "ଅଟୋ ଲଗଆଉଟ୍ ଟାଇମର୍ (ମିନିଟ୍)",
+      "audit_retention": "ଅଡିଟ୍ ଲଗ୍ ରିଟେନସନ୍ (ଦିନରେ)",
+      "localization_title": "ଲୋକାଲାଇଜେସନ୍",
+      "localization_subtitle": "ଏଣ୍ଟରପ୍ରାଇଜ୍ର ଅଞ୍ଚଳୀୟ ପସନ୍ଦଗୁଡିକ ଏବଂ ବ୍ୟବହାରକାରୀ ଅନୁଭବ ଡିଫଲ୍ଟ୍ ସେଟ୍ କରନ୍ତୁ।",
+      "timezone": "ସମୟ କ୍ଷେତ୍ର",
+      "default_language": "ଡିଫଲ୍ଟ୍ ଭାଷା",
+      "currency_format": "ମୁଦ୍ରା ଫର୍ମାଟ୍",
+      "save_changes": "ପରିବର୍ତ୍ତନଗୁଡିକ ସେଭ୍ କରନ୍ତୁ",
+      "tab_settings": "ସେଟିଂସ୍",
+      "tab_notification": "ବିଜ୍ଞପ୍ତି"
+    },
+    "audit_logs": {
+      "title": "ଅଡିଟ୍ ଲଗ୍",
+      "status_filter": "ସ୍ଥିତି",
+      "search_placeholder": "ସନ୍ଧାନ କରନ୍ତୁ...",
+      "export_csv": "ସିଏସଭି ଭାବରେ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ",
+      "export_pdf": "ପିଡିଏଫ୍ ଭାବରେ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ",
+      "id": "ଆଇଡି",
+      "timestamp": "ଟାଇମଷ୍ଟାମ୍ପ୍",
+      "user": "ବ୍ୟବହାରକାରୀ",
+      "resource": "ରିସୋର୍ସ",
+      "status": "ସ୍ଥିତି",
+      "active": "ସକ୍ରିୟ",
+      "deactivated": "ନିଷ୍କ୍ରିୟ",
+      "view": "ଦେଖନ୍ତୁ",
+      "edit": "ସଂପାଦନ କରନ୍ତୁ",
+      "delete": "ଡିଲିଟ୍ କରନ୍ତୁ"
+    },
+    "invite_user_form": {
+      "dialog": "ବ୍ୟବହାରକାରୀକୁ ନିମନ୍ତ୍ରଣ କରିବା ପାଇଁ ଏହା ଏକ ଡାଏଲୋଗ୍।",
+      "role": "ଭୂମିକା",
+      "zone": "ଜୋନ୍",
+      "email": "ଇମେଲ",
+      "invite_user": "ବ୍ୟବହାରକାରୀକୁ ନିମନ୍ତ୍ରଣ କରନ୍ତୁ"
+    },
+    "leafletmap": {
+      "remove_zone": "ଜୋନ୍ ହଟାନ୍ତୁ",
+      "require_attention": "ଧ୍ୟାନ ଆବଶ୍ୟକ",
+      "all_systems_normal": "ସମସ୍ତ ସିଷ୍ଟମ୍ ସାଧାରଣ",
+      "total_alerts": "ମୋଟ ସତର୍କତା",
+      "critical_alerts": "ଜରୁରୀ ସତର୍କତା",
+      "active_meters": "ସକ୍ରିୟ ମିଟର୍",
+      "total_meters": "ମୋଟ ମିଟର୍"
+    }
+  },
+  "common": {
+    "no_data_available": "କୌଣସି ତଥ୍ୟ ଉପଲବ୍ଧ ନାହିଁ",
+    "invalid_selection": "ଅବৈଧ ଚୟନ"
+  },
+  "access_denied": {
+    "access_denied": "ପ୍ରବେଶ ପ୍ରତ୍ୟାଖ୍ୟାନ",
+    "message": "ଆପଣ ଏହି ପୃଷ୍ଠାକୁ ପ୍ରବେଶ କରିବାର ଅଧିକାରୀ ନୁହନ୍ତି।",
+    "go_to_login": "ଲଗଇନକୁ ଯାଆନ୍ତୁ",
+    "go_back": "ପଛକୁ ଯାଆନ୍ତୁ"
+  }
+}

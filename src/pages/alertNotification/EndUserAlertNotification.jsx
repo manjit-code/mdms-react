@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import NotificationCard from '../../components/ui/card/NotificationCard'
 import { useSelector } from 'react-redux'
+import { useTranslation } from 'react-i18next'
 
 export default function EndUserAlertNotification() {
   const theme = useSelector(state => state.theme.colors)
-
+  const {t} = useTranslation();
   // we can use Memo in this component to make it efficient, if data is large
   const Notifications = [
     {
@@ -55,7 +56,7 @@ export default function EndUserAlertNotification() {
       date: "October 20, 2024",
       time: "11:00 AM",
       details: "Enroll in our Budget Billing program to stabilize your monthly payments. Instead of fluctuating bills based on seasonal usage, you will pay a fixed, average amount of $140.00 each month. This helps simplify budgeting and avoids high unexpected bills in the winter or summer. Your account will be reviewed annually to adjust the payment amount based on your actual consumption."
-    },{
+    }, {
       title: "Bill Generated",
       description: "Aug 2024 bill: $156.75",
       date: "August 15, 2024",
@@ -128,7 +129,7 @@ export default function EndUserAlertNotification() {
             const isActive = (index === selectedIndex)
             const wrapperClass = `${isActive} ? 'w-full md:w-full transform scale-[1.02]' : 'w-full md:w-full' transition-all duration-300`
             return (
-              <div key = {notification.title + index} className={wrapperClass}>
+              <div key={notification.title + index} className={wrapperClass}>
                 <NotificationCard
                   title={notification.title}
                   description={notification.description}
@@ -147,7 +148,7 @@ export default function EndUserAlertNotification() {
           <>
             <div className='flex justify-between w-full'>
               <div className='text-lg font-semibold'>{bigScreenNotification.title}</div>
-              <div  className='text-sm text-right'>
+              <div className='text-sm text-right'>
                 <div>{bigScreenNotification.date}</div>
                 <div className='mt-1'>{bigScreenNotification.time}</div>
               </div>
@@ -155,7 +156,7 @@ export default function EndUserAlertNotification() {
             <div className='mt-6 text-sm w-full text-left'>{bigScreenNotification.description}</div>
             <div className='mt-6 text-sm text-left'>{bigScreenNotification.details}</div>
 
-          </>) : <>No Notification is Selected.</>}
+          </>) : <>{t('endUser.alert_notification.no_notification')}</>}
       </div>
     </div>
   )

@@ -6,7 +6,9 @@ export const lightTheme = {
     highlight: "bg-blue-50",
     sidebar: "bg-stone-100",
     card: "bg-white",
-    header: "bg-gray-100",
+    header: "bg-gray-300",
+    mini_card: "bg-gray-200",
+    table_head: "bg-stone-100"
   },
   text: {
     primary: "text-gray-800",
@@ -14,6 +16,8 @@ export const lightTheme = {
     sidebar: "text-white",
     accent: "text-blue-600",
     active: "text-blue-600",
+    hover: "hover:bg-gray-50 transition",
+    action_hover: "hover:bg-gray-200 transition",
   },
   border: {
     primary: "border-gray-200",
@@ -46,44 +50,92 @@ export const lightTheme = {
 export const darkTheme = {
   mode: "dark",
   background: {
-    primary: "bg-slate-900",
-    secondary: "bg-gray-800",
-    highlight: "bg-indigo-900/30",
-    sidebar: "bg-slate-900",
-    card: "bg-slate-700",
-    header: "bg-slate-900",
+    // Main body background - deepest layer
+    primary: "bg-[#0a0e14]",
+
+    // Content areas and main sections
+    secondary: "bg-[#121820]",
+
+    // Subtle highlights (for hover states, etc.)
+    highlight: "bg-[#1a2332]",
+
+    // Sidebar - matches primary for seamless integration
+    sidebar: "bg-[#0f1419]",
+
+    // Table headers - slightly elevated
+    table_head: "bg-[#161c26]",
+
+    // Cards - clearly elevated from background
+    card: "bg-[#1a2332]",
+
+    // Header - matches sidebar depth
+    header: "bg-[#0f1419]",
+
+    // Page wrapper
+    page: "bg-[#121820]",
+
+    // Mini cards - more elevated than regular cards
+    mini_card: "bg-[#1f2937]"
   },
+
   text: {
-    primary: "text-slate-100",
-    secondary: "text-slate-300",
-    sidebar: "text-slate-100",
-    accent: "text-indigo-400",
-    active: "text-indigo-400",
+    // Primary text - high contrast for readability
+    primary: "text-[#e4e7eb]",
+
+    // Secondary text - muted but still readable
+    secondary: "text-[#9ca3af]",
+
+    // Sidebar text
+    sidebar: "text-[#d1d5db]",
+
+    // Accent color - refined blue
+    accent: "text-[#60a5fa]",
+
+    // Active states - vibrant blue
+    active: "text-[#3b82f6]",
+
+    // Hover effects
+    hover: "hover:bg-[#1f2937] transition-colors duration-200",
+    action_hover: "hover:bg-[#252f3f] transition-colors duration-200",
   },
+
   border: {
-    primary: "border-slate-600",
-    secondary: "border-indigo-700",
-    accent: "border-indigo-500",
-    input: "border-slate-600",
+    // Subtle borders that don't overpower
+    primary: "border-[#252f3f]",
+    secondary: "border-[#374151]",
+    accent: "border-[#3b82f6]",
+    input: "border-[#374151]",
   },
+
   input: {
-    base: "bg-slate-700 border border-slate-600 text-slate-100 placeholder-slate-400",
-    focus: "focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500",
+    base: "bg-[#1a2332] border border-[#374151] text-[#e4e7eb] placeholder-[#6b7280]",
+    focus: "focus:border-[#60a5fa] focus:ring-1 focus:ring-[#60a5fa]/50",
   },
+
   button: {
-    primary: "bg-indigo-600 text-white hover:bg-indigo-700",
-    secondary: "bg-slate-700 text-slate-200 hover:bg-slate-600",
-    action: "bg-indigo-800 text-white hover:bg-indigo-600",
-    disabled: "bg-slate-800 text-slate-500 cursor-not-allowed",
+    // Primary action - vibrant but not overwhelming
+    primary: "bg-[#3b82f6] text-white hover:bg-[#2563eb] transition-colors duration-200",
+
+    // Secondary button
+    secondary: "bg-[#1f2937] text-[#d1d5db] hover:bg-[#374151] transition-colors duration-200",
+
+    // Action button
+    action: "bg-[#3b82f6] text-white hover:bg-[#2563eb] transition-colors duration-200",
+
+    // Disabled state
+    disabled: "bg-[#1a2332] text-[#6b7280] cursor-not-allowed",
   },
-  ring: "ring-indigo-500",
+
+  ring: "ring-[#3b82f6]",
+
   toggle: {
-    bg: "bg-indigo-600",
-    active: "bg-emerald-500",
+    bg: "bg-[#3b82f6]",
+    active: "bg-[#10b981]",
   },
+
   status: {
-    active: "bg-emerald-900/50 text-emerald-300",
-    inactive: "bg-slate-700 text-slate-300",
-    warning: "bg-amber-900/50 text-amber-300",
+    active: "bg-[#064e3b] text-[#6ee7b7]",
+    inactive: "bg-[#1f2937] text-[#9ca3af]",
+    warning: "bg-[#78350f] text-[#fcd34d]",
   },
 };

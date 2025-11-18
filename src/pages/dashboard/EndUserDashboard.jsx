@@ -1,9 +1,10 @@
-import React, { act, useState } from 'react';
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import DashboardCard from '../../components/ui/card/DashboardCard';
 import ElectricityConsumptionOverviewGraph from '../../components/ui/charts/ElectricityConsumptionOverviewGraph';
 import QuickActionButton from '../../components/ui/button/QuickActionButton';
+import { CreditCard, ChartNoAxesColumn, Bell, Clock } from 'lucide-react';
 
 export default function EndUserDashboard() {
     const { t } = useTranslation();
@@ -27,21 +28,47 @@ export default function EndUserDashboard() {
         }
     });
 
-
-    const quickActions = [
-        { label: t('endUser.dashboard.pay_bill'), icon: "💳" },
-        { label: t('endUser.dashboard.view_bill_history'), icon: "📊" },
-        { label: t('endUser.dashboard.manage_notification'), icon: "🔔" }
+    const dashboardCards = [
+        {
+            title: t('endUser.dashboard.current_consumption'),
+            value: dashboardData.currentConsumption,
+            componentPassed: Clock
+        },
+        {
+            title: t('endUser.dashboard.this_months_bill'),
+            value: `${dashboardData.monthlyBill.amount} ${t('endUser.dashboard.due_on')} ${dashboardData.monthlyBill.dueDate}`,
+            componentPassed: Clock
+        },
+        {
+            title: t('endUser.dashboard.outstanding_balance'),
+            value: `${dashboardData.outstandingBalance} ${t('endUser.dashboard.pending')}`,
+            componentPassed: Clock
+        },
+        {
+            title: t('endUser.dashboard.last_payment'),
+            value: `${t('endUser.dashboard.paid_on')} ${dashboardData.lastPayment.amount} ${dashboardData.lastPayment.date}`,
+            componentPassed: Clock
+        }
     ];
 
-    const handleQuickAction = (act) =>{
-        console.log("Action: ", act);
-    }
+    const quickActions = [
+        { label: t('endUser.dashboard.pay_bill'), icon: CreditCard },
+        { label: t('endUser.dashboard.view_bill_history'), icon: ChartNoAxesColumn },
+        { label: t('endUser.dashboard.manage_notification'), icon: Bell }
+    ];
+
+    const handleQuickAction = (act) => {
+        console.log("Action:", act);
+    };
+
     return (
         <div>
             <div className={`p-3 pl-0`}>
-                <h1 className={`text-2xl font-bold ${theme.text.primary}`}>{t('endUser.dashboard.welcome')}, {username}</h1>
-                <div className={`flex flex-row justify-between px-10 py-3 ${theme.text.secondary} `}>
+                <h1 className={`text-2xl font-bold`}>
+                    {t('endUser.dashboard.welcome')}, {username}
+                </h1>
+
+                <div className={`flex flex-row justify-between px-10 py-3 ${theme.text.secondary}`}>
                     <div>
                         <p>{t('endUser.dashboard.as_of')} {asOfDate}</p>
                         <p>{t('endUser.dashboard.zone')} {zone}</p>
@@ -55,51 +82,40 @@ export default function EndUserDashboard() {
                 </div>
             </div>
 
+            
+            <div className={`flex flex-wrap justify-between gap-6`}>
 
-            <div className={`flex flex-wrap`}>
-                <DashboardCard
-                    title={(t('endUser.dashboard.current_consumption'))}
-                    value={dashboardData.currentConsumption}
-                />
-
-                <DashboardCard
-                    title={(t('endUser.dashboard.this_months_bill'))}
-                    value={`${dashboardData.monthlyBill.amount} ${t('endUser.dashboard.due_on')} ${dashboardData.monthlyBill.dueDate}`}
-                />
-
-                <DashboardCard
-                    title={t('endUser.dashboard.outstanding_balance')}
-                    value={`${dashboardData.outstandingBalance} ${t('endUser.dashboard.pending')}`}
-                />
-
-                <DashboardCard
-                    title={t('endUser.dashboard.last_payment')}
-                    value={`${t('endUser.dashboard.paid_on')} ${dashboardData.lastPayment.amount} ${dashboardData.lastPayment.date}`}
-                />
-
-            </div>
-
-
-            <div>
-                <div className={`mb-8 p-3 pl-0 rounded-lg ${theme.background.card}`}>
-                    <ElectricityConsumptionOverviewGraph/>
-                </div>
-            </div>
-
-
-            <div className={`rounded-lg p-3 ${theme.text.primary} ${theme.background.card}`} >
-                <h3 className={`text-xl font-semibold mb-5`}>{t('endUser.dashboard.quick_actions')}</h3>
-                <div className='flex flex-row space-x-2'>
-                    {quickActions.map((action, index) =>(
-                    <QuickActionButton 
-                    key={index}
-                    icon={action.icon}
-                    label={action.label}
-                    onClickk={() => handleQuickAction(action.label)}
-                    />
+                {dashboardCards.map((card, index) => (
+                    <div key={index} className="flex-1 min-w-[250px] max-w-[280px]">
+                        <DashboardCard
+                            key={index}
+                            title={card.title}
+                            value={card.value}
+                            componentPassed={card.componentPassed}
+                        />
+                    </div>
                 ))}
+            </div>
+
+            
+            <div className={`mt-5 mb-8 p-3 pl-0 rounded-lg ${theme.background.card}`}>
+                <ElectricityConsumptionOverviewGraph />
+            </div>
+
+            
+            <div className={`rounded-lg p-3 ${theme.text.primary} ${theme.background.card}`}>
+                <h3 className="text-xl font-semibold mb-5">{t('endUser.dashboard.quick_actions')}</h3>
+                <div className="flex flex-row space-x-2">
+                    {quickActions.map((action, index) => (
+                        <QuickActionButton
+                            key={index}
+                            icon={action.icon}
+                            label={action.label}
+                            onClick={() => handleQuickAction(action.label)}
+                        />
+                    ))}
                 </div>
             </div>
         </div>
-    )
+    );
 }

@@ -37,7 +37,6 @@ export default function ElectricityConsumptionOverviewGraph({url, title}) {
 
   return (
     <div>
-      {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className={`text-xl font-semibold ${theme.text.primary} pl-4`}>
           {t('endUser.dashboard.electricity_consumption_overview')}
@@ -60,7 +59,7 @@ export default function ElectricityConsumptionOverviewGraph({url, title}) {
         </div>
       </div>
 
-      {/* Chart */}
+      
       <div className="h-64">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData[timeRange]}>

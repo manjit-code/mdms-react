@@ -23,7 +23,7 @@ function App() {
   }, [i18n]);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <div>{t('endUser.profile.loading')}...</div>;
   }
 
   return (

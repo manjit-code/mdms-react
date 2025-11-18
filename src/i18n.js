@@ -1,9 +1,12 @@
 import i18next from "i18next";
 import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
-import enLang from "./language/en.json";
-import frLang from "./language/fr.json";
-import hindiLang from "./language/hi.json";
+import enLang from "./language/english.json";
+import frLang from "./language/french.json";
+import hindiLang from "./language/hindi.json";
+import odiaLang from "./language/odia.json";
+import kannadaLang from "./language/kannada.json";
+import bengaliLang from "./language/bengali.json";
 
 const resources = {
   en: {
@@ -14,6 +17,15 @@ const resources = {
   },
   hi: {
     translation: hindiLang
+  },
+  od:{
+    translation: odiaLang
+  },
+  kan:{
+    translation: kannadaLang
+  },
+  ben:{
+    translation: bengaliLang
   }
 };
 

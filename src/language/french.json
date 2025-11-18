@@ -1,0 +1,367 @@
+{
+  "login": {
+    "login_form": "Formulaire de Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "forgot_password": "Mot de passe oublié",
+    "remember_me": "Se souvenir de moi",
+    "login": "Connexion",
+    "test_credential": "Identifiants de test (cliquez pour remplir automatiquement)"
+  },
+
+  "forgot_password": {
+    "title": "Mot de passe oublié",
+    "email": "E-mail",
+    "login": "Connexion",
+    "send_reset_link": "Envoyer le lien de réinitialisation"
+  },
+
+  "reset_password": {
+    "title": "Réinitialiser le mot de passe",
+    "email": "Entrez votre e-mail",
+    "password": "Entrez votre mot de passe",
+    "update_password": "Mettre à jour le mot de passe"
+  },
+
+  "header": {
+    "title": "MDMS",
+    "langSelector": {
+      "1": "anglais",
+      "2": "hindi",
+      "3": "français"
+    },
+    "my_profile": "Mon Profil",
+    "logout": "Déconnexion"
+  },
+
+  "endUser": {
+    "sidebar": {
+      "dashboard": "Tableau de bord",
+      "bills_and_payments": "Factures et Paiements",
+      "meter_data": "Données du Compteur",
+      "alerts_and_notifications": "Alertes et Notifications",
+      "profile_and_settings": "Profil et Paramètres",
+      "logs": "Journaux"
+    },
+
+    "dashboard": {
+      "welcome": "Bienvenue",
+      "last_sync_at": "Dernière synchronisation à",
+      "as_of": "À la date du",
+      "data_source": "Source des données :",
+      "zone": "Zone :",
+      "mwh": "MWh",
+      "due_on": "Échéance le",
+      "pending": "En attente",
+      "current_consumption": "Consommation actuelle",
+      "this_months_bill": "Facture de ce mois",
+      "outstanding_balance": "Solde impayé",
+      "paid_on": "Payé le",
+      "last_payment": "Dernier paiement",
+      "electricity_consumption_overview": "Aperçu de la consommation électrique",
+      "price": "Prix",
+      "month": "Mois",
+      "quick_actions": "Actions rapides",
+      "day": "Jour",
+      "week": "Semaine",
+      "previous": "Précédent",
+      "current": "Actuel",
+      "pay_bill": "Payer la facture",
+      "view_bill_history": "Voir l'utilisation détaillée",
+      "manage_notification": "Gérer les notifications",
+      "tiny": "Petit (M)",
+      "y_axis_hitting": "Axe Y",
+      "ratio_modelling": "Modélisation du ratio",
+      "average_markdown": "Réduction moyenne"
+    },
+
+    "bills": {
+      "my_bills": "Mes factures",
+      "month": "Mois",
+      "amount": "Montant",
+      "due_date": "Date d'échéance",
+      "status": "Statut",
+      "actions": "Actions",
+      "pending": "En attente",
+      "paid": "Payé",
+      "view": "Voir",
+      "pay": "Payer",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "note": "Note : Toutes les factures sont générées le 1er de chaque mois"
+    },
+
+    "bill_details": {
+      "bill_details": "Détails de la facture",
+      "date": "Date",
+      "starting": "Début",
+      "convergents": "Convergents",
+      "unit": "Unité",
+      "download_pdf": "Télécharger PDF",
+      "print_bill": "Imprimer la facture",
+      "pay_now": "Payer maintenant"
+    },
+
+    "usage": {
+      "select_date_range": "Sélectionner la plage de dates",
+      "date": "Date",
+      "starting": "Début",
+      "difference": "Différence",
+      "notes": "Notes"
+    },
+
+    "profile": {
+      "profile_settings": "Profil et Paramètres",
+      "profile": "Profil",
+      "security": "Sécurité",
+      "notification": "Notification",
+      "name": "Nom",
+      "email1": "E-mail",
+      "user_name": "Nom d'utilisateur",
+      "mobile_no": "Numéro de mobile",
+      "save_and_continue": "Enregistrer et continuer",
+      "current_password": "Mot de passe actuel",
+      "new_password": "Nouveau mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "notifications_from": "Vous pouvez recevoir des notifications de",
+      "email": "E-mail",
+      "sms": "SMS",
+      "push": "Push",
+      "loading": "Chargement",
+      "invalid_selection": "Sélection invalide"
+    },
+
+    "alert_notification": {
+      "no_notification": "Aucune notification sélectionnée."
+    },
+
+    "logs": {
+      "title": "Page des journaux"
+    }
+  },
+
+  "zoneUser": {
+    "sidebar": {
+      "dashborad": "Tableau de bord",
+      "meter_management": "Gestion des compteurs",
+      "user_management": "Gestion des utilisateurs",
+      "reports_analytics": "Rapports et Analyses",
+      "settings_notification": "Paramètres et Notifications"
+    },
+
+    "dashboard": {
+      "zone_dashboard": "Tableau de bord de la zone",
+      "active_meters": "Compteurs actifs",
+      "avg_usage": "Consommation moyenne",
+      "pending_alert": "Alertes en attente",
+      "analytics_chart": "Graphique analytique",
+      "week": "Semaine",
+      "month": "Mois",
+      "add_meter": "Ajouter un compteur",
+      "generate_report": "Générer un rapport"
+    },
+
+    "meter_management": {
+      "meter_management": "Gestion des compteurs",
+      "bulk_operations": "Opérations en masse",
+      "meter_id": "ID du compteur",
+      "zone": "Zone",
+      "owner": "Propriétaire",
+      "status": "Statut",
+      "last_reading": "Dernière lecture",
+      "more_actions": "Plus d’actions",
+      "view": "Voir",
+      "edit": "Modifier",
+      "active": "Actif",
+      "import_csv": "Importer CSV",
+      "export_csv": "Exporter CSV",
+      "de_activate_meters": "Désactiver les compteurs"
+    },
+
+    "user_management": {
+      "user_management": "Gestion des utilisateurs",
+      "invite_user": "Inviter un utilisateur",
+      "name": "Nom",
+      "email": "E-mail",
+      "role": "Rôle",
+      "zone": "Zone",
+      "status": "Statut",
+      "id": "ID",
+      "more_actions": "Plus d’actions",
+      "edit": "Modifier",
+      "active": "Actif",
+      "reset_password": "Réinitialiser le mot de passe",
+      "search": "Rechercher.."
+    },
+
+    "reports_and_analytics": {
+      "reports_and_analytics": "Rapports et Analyses",
+      "trend_of_energy_usage_over_time": "Tendance de la consommation d'énergie dans le temps",
+      "compare_zone_consumption": "Comparer la consommation par zone",
+      "zone": "Zone",
+      "reports": "Rapports",
+      "export_as_csv": "Exporter en CSV",
+      "export_as_pdf": "Exporter en PDF",
+      "meter_id": "ID du compteur",
+      "dates": "Dates",
+      "user_name": "Nom d'utilisateur",
+      "consumption": "Consommation",
+      "status": "Statut",
+      "active": "Actif",
+      "de-activated": "Désactivé",
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+
+    "setting_and_notifications": {
+      "user_management": "Gestion des utilisateurs",
+      "subtitle": "Gérez vos règles d'alerte et préférences de communication.",
+      "settings": "Paramètres",
+      "notification": "Notification",
+      "alert_threshold": "Seuil d'alerte",
+      "alert_subtitle": "Définissez les seuils de consommation qui déclenchent les alertes.",
+      "high_consumption": "Seuil de haute consommation (kWh)",
+      "low_consumption": "Seuil de basse consommation (kWh)",
+      "abnormal_reading": "Fréquence de lecture anormale (heures)",
+      "inactive_meters": "Durée d'inactivité des compteurs (jours)",
+      "day": "Jour",
+      "sunday": "Dimanche",
+      "save_and_continue": "Enregistrer et continuer"
+    }
+  },
+
+  "enterprise": {
+    "sidebar": {
+      "dashboard": "Tableau de bord",
+      "zone_management": "Gestion des zones",
+      "meter_management": "Gestion des compteurs",
+      "user_role_management": "Gestion des utilisateurs et rôles",
+      "audit_logs": "Journaux d'audit",
+      "setting_configuration": "Paramètres et Configuration"
+    },
+
+    "dashboard": {
+      "enterprise_dashboard": "Tableau de bord Enterprise",
+      "recent_alerts": "Alertes récentes",
+      "alert": "Alerte",
+      "total_zones": "Nombre total de zones",
+      "total_meters": "Nombre total de compteurs",
+      "critical_alerts": "Alertes critiques",
+      "average_consumption_per_zone": "Consommation moyenne par zone"
+    },
+
+    "zone_management": {
+      "zone_management": "Gestion des zones",
+      "add_zone": "Ajouter une zone",
+      "zone_id": "ID de la zone",
+      "zone_name": "Nom de la zone",
+      "admin_assigned": "Administrateur assigné",
+      "total_meters": "Total compteurs",
+      "status": "Statut",
+      "more_action": "Plus d’actions",
+      "view": "Voir",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "add_zone_title": "Boîte de dialogue pour ajouter une zone",
+      "admin": "Administrateur",
+      "location": "Emplacement",
+      "description": "Description",
+      "address_pincode": "Adresse ou code postal",
+      "description_here": "Description ici"
+    },
+
+    "meter_management": {
+      "meter_id": "ID du compteur",
+      "search_placeholder": "Rechercher..",
+      "global_meter_management": "Gestion globale des compteurs",
+      "add_meter": "Ajouter un compteur",
+      "zone": "Zone",
+      "owner": "Propriétaire",
+      "status": "Statut",
+      "last_reading": "Dernière lecture",
+      "more_actions": "Plus d’actions",
+      "view": "Voir",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "trend_chart_title": "Tendance de la consommation énergétique par zone"
+    },
+
+    "user_role_management": {
+      "user_role_management": "Gestion des utilisateurs et rôles",
+      "invite_user": "Inviter un utilisateur",
+      "invite_user_description": "Boîte de dialogue pour inviter un utilisateur.",
+      "comparison_chart_title": "Comparaison entre utilisateurs actifs et inactifs par année",
+      "user_id": "ID utilisateur",
+      "name": "Nom",
+      "email": "E-mail",
+      "role": "Rôle",
+      "status": "Statut"
+    },
+
+    "setting_configuration": {
+      "title": "Paramètres et Configuration",
+      "subtitle": "Gérez les configurations et intégrations à l’échelle de l’entreprise",
+      "policies_title": "Politiques et Règles",
+      "policies_subtitle": "Définissez les politiques opérationnelles globales.",
+      "data_retention": "Durée de conservation des données (en jours)",
+      "auto_logout": "Temps avant déconnexion automatique (minutes)",
+      "audit_retention": "Durée de conservation des journaux d'audit (en jours)",
+      "localization_title": "Localisation",
+      "localization_subtitle": "Définissez les préférences régionales et paramètres par défaut.",
+      "timezone": "Fuseau horaire",
+      "default_language": "Langue par défaut",
+      "currency_format": "Format monétaire",
+      "save_changes": "Enregistrer les modifications",
+      "tab_settings": "Paramètres",
+      "tab_notification": "Notification"
+    },
+
+    "audit_logs": {
+      "title": "Journaux d'audit",
+      "status_filter": "Statut",
+      "search_placeholder": "Rechercher...",
+      "export_csv": "Exporter en CSV",
+      "export_pdf": "Exporter en PDF",
+      "id": "ID",
+      "timestamp": "Horodatage",
+      "user": "Utilisateur",
+      "resource": "Ressource",
+      "status": "Statut",
+      "active": "Actif",
+      "deactivated": "Désactivé",
+      "view": "Voir",
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    },
+
+    "invite_user_form": {
+      "dialog": "Boîte de dialogue pour inviter un utilisateur.",
+      "role": "Rôle",
+      "zone": "Zone",
+      "email": "E-mail",
+      "invite_user": "Inviter l’utilisateur"
+    },
+
+    "leafletmap": {
+      "remove_zone": "Supprimer la zone",
+      "require_attention": "Nécessite une attention",
+      "all_systems_normal": "Tous les systèmes sont normaux",
+      "total_alerts": "Total des alertes",
+      "critical_alerts": "Alertes critiques",
+      "active_meters": "Compteurs actifs",
+      "total_meters": "Nombre total de compteurs"
+    }
+  },
+
+  "common": {
+    "no_data_available": "Aucune donnée disponible",
+    "invalid_selection": "Sélection invalide"
+  },
+
+  "access_denied": {
+    "access_denied": "Accès refusé",
+    "message": "Vous n’êtes pas autorisé à accéder à cette page.",
+    "go_to_login": "Aller à la connexion",
+    "go_back": "Retour"
+  }
+}

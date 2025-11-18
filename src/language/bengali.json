@@ -1,0 +1,346 @@
+{
+  "login": {
+    "login_form": "লগইন ফর্ম",
+    "email": "ইমেল",
+    "password": "পাসওয়ার্ড",
+    "forgot_password": "পাসওয়ার্ড ভুলে গেছেন?",
+    "remember_me": "আমাকে মনে রাখুন",
+    "login": "লগইন",
+    "test_credential": "টেস্ট ক্রেডেনশিয়াল (অটোফিল করতে ক্লিক করুন)"
+  },
+  "forgot_password": {
+    "title": "পাসওয়ার্ড ভুলে গেছেন",
+    "email": "ইমেল",
+    "login": "লগইন",
+    "send_reset_link": "রিসেট লিংক পাঠান"
+  },
+  "reset_password": {
+    "title": "পাসওয়ার্ড রিসেট করুন",
+    "email": "আপনার ইমেল লিখুন",
+    "password": "আপনার পাসওয়ার্ড লিখুন",
+    "update_password": "পাসওয়ার্ড আপডেট করুন"
+  },
+  "header": {
+    "title": "এমডিএমএস",
+    "langSelector": {
+      "1": "ইংরেজি",
+      "2": "হিন্দি",
+      "3": "ফরাসি"
+    },
+    "my_profile": "আমার প্রোফাইল",
+    "logout": "লগআউট"
+  },
+  "endUser": {
+    "sidebar": {
+      "dashboard": "ড্যাশবোর্ড",
+      "bills_and_payments": "বিল ও পেমেন্ট",
+      "meter_data": "মিটার ডেটা",
+      "alerts_and_notifications": "অ্যালার্ট ও নোটিফিকেশন",
+      "profile_and_settings": "প্রোফাইল ও সেটিংস",
+      "logs": "লগস"
+    },
+    "dashboard": {
+      "welcome": "স্বাগতম",
+      "last_sync_at": "সর্বশেষ সিঙ্ক হয়েছে",
+      "as_of": "যে তারিখ পর্যন্ত",
+      "data_source": "ডেটা সোর্স:",
+      "zone": "জোন:",
+      "mwh": "এমডব্লিউএইচ",
+      "due_on": "শেষ তারিখ",
+      "pending": "বকেয়া",
+      "current_consumption": "বর্তমান খরচ",
+      "this_months_bill": "এই মাসের বিল",
+      "outstanding_balance": "বকেয়া ব্যালেন্স",
+      "paid_on": "পেমেন্ট তারিখ",
+      "last_payment": "সর্বশেষ পেমেন্ট",
+      "electricity_consumption_overview": "বিদ্যুৎ খরচ ওভারভিউ",
+      "price": "দাম",
+      "month": "মাস",
+      "quick_actions": "কুইক অ্যাকশনস",
+      "day": "দিন",
+      "week": "সপ্তাহ",
+      "previous": "পূর্ববর্তী",
+      "current": "বর্তমান",
+      "pay_bill": "বিল পে করুন",
+      "view_bill_history": "ডিটেইলড ইউজেজ দেখুন",
+      "manage_notification": "নোটিফিকেশন ম্যানেজ করুন",
+      "tiny": "ছোট (এম)",
+      "y_axis_hitting": "ওয়াই-অক্ষ (হিটিং)",
+      "ratio_modelling": "রেশিও (মডেলিং)",
+      "average_markdown": "গড় মার্কডাউন"
+    },
+    "bills": {
+      "my_bills": "আমার বিলস",
+      "month": "মাস",
+      "amount": "অ্যামাউন্ট",
+      "due_date": "শেষ তারিখ",
+      "status": "স্ট্যাটাস",
+      "actions": "অ্যাকশনস",
+      "pending": "বকেয়া",
+      "paid": "পেইড",
+      "view": "ভিউ",
+      "pay": "পে",
+      "previous": "পূর্ববর্তী",
+      "next": "পরবর্তী",
+      "note": "নোট : সমস্ত বিল প্রতি মাসের ১ তারিখে জেনারেট হয়"
+    },
+    "bill_details": {
+      "bill_details": "বিল ডিটেইলস",
+      "date": "তারিখ",
+      "starting": "শুরু",
+      "convergents": "কনভারজেন্টস",
+      "unit": "ইউনিট",
+      "download_pdf": "পিডিএফ ডাউনলোড করুন",
+      "print_bill": "বিল প্রিন্ট করুন",
+      "pay_now": "এখনই পে করুন"
+    },
+    "usage": {
+      "select_date_range": "তারিখ রেঞ্জ সিলেক্ট করুন",
+      "date": "তারিখ",
+      "starting": "শুরু",
+      "difference": "পার্থক্য",
+      "notes": "নোটস"
+    },
+    "profile": {
+      "profile_settings": "প্রোফাইল ও সেটিংস",
+      "profile": "প্রোফাইল",
+      "security": "সিকিউরিটি",
+      "notification": "নোটিফিকেশন",
+      "name": "নাম",
+      "email1": "ইমেল",
+      "user_name": "ইউজারনেম",
+      "mobile_no": "মোবাইল নং",
+      "save_and_continue": "সেভ এন্ড কন্টিনিউ",
+      "current_password": "বর্তমান পাসওয়ার্ড",
+      "new_password": "নতুন পাসওয়ার্ড",
+      "confirm_password": "পাসওয়ার্ড কনফার্ম করুন",
+      "notifications_from": "আপনি নোটিফিকেশন পেতে পারেন",
+      "email": "ইমেল",
+      "sms": "এসএমএস",
+      "push": "পুশ",
+      "loading": "লোড হচ্ছে",
+      "invalid_selection": "ইনভ্যালিড সিলেকশন"
+    },
+    "alert_notification": {
+      "no_notification": "কোনো নোটিফিকেশন সিলেক্ট করা নেই।"
+    },
+    "logs": {
+      "title": "লগস পেজ"
+    }
+  },
+  "zoneUser": {
+    "sidebar": {
+      "dashborad": "ড্যাশবোর্ড",
+      "meter_management": "মিটার ম্যানেজমেন্ট",
+      "user_management": "ইউজার ম্যানেজমেন্ট",
+      "reports_analytics": "রিপোর্টস ও অ্যানালিটিক্স",
+      "settings_notification": "সেটিং ও নোটিফিকেশন"
+    },
+    "dashboard": {
+      "zone_dashboard": "জোন ড্যাশবোর্ড",
+      "active_meters": "একটিভ মিটারস",
+      "avg_usage": "গড় ইউজেজ",
+      "pending_alert": "পেন্ডিং অ্যালার্ট",
+      "analytics_chart": "অ্যানালিটিক্স চার্ট",
+      "week": "সপ্তাহ",
+      "month": "মাস",
+      "add_meter": "মিটার অ্যাড করুন",
+      "generate_report": "রিপোর্ট জেনারেট করুন"
+    },
+    "meter_management": {
+      "meter_management": "মিটার ম্যানেজমেন্ট",
+      "bulk_operations": "বাল্ক অপারেশনস",
+      "meter_id": "মিটার আইডি",
+      "zone": "জোন",
+      "owner": "মালিক",
+      "status": "স্ট্যাটাস",
+      "last_reading": "লাস্ট রিডিং",
+      "more_actions": "মোর অ্যাকশনস",
+      "view": "ভিউ",
+      "edit": "এডিট",
+      "active": "একটিভ",
+      "import_csv": "সিএসভি ইম্পোর্ট করুন",
+      "export_csv": "সিএসভি এক্সপোর্ট করুন",
+      "de_activate_meters": "মিটারস ডি-একটিভেট করুন"
+    },
+    "user_management": {
+      "user_management": "ইউজার ম্যানেজমেন্ট",
+      "invite_user": "ইউজার ইনভাইট করুন",
+      "name": "নাম",
+      "email": "ইমেল",
+      "role": "রোল",
+      "zone": "জোন",
+      "status": "স্ট্যাটাস",
+      "abc": "এবিসি",
+      "id": "আইডি",
+      "more_actions": "মোর অ্যাকশনস",
+      "edit": "এডিট",
+      "active": "একটিভ",
+      "reset_password": "পাসওয়ার্ড রিসেট করুন",
+      "search": "সার্চ.."
+    },
+    "reports_and_analytics": {
+      "reports_and_analytics": "রিপোর্টস ও অ্যানালিটিক্স",
+      "trend_of_energy_usage_over_time": "সময়ের সাথে এনার্জি ইউজের ট্রেন্ড।",
+      "compare_zone_consumption": "জোন কনজাম্পশন কম্পেয়ার করুন",
+      "zone": "জোন",
+      "2025": "২০২৫",
+      "mangalore": "ম্যাঙ্গালোর",
+      "bajaj": "বাজাজ",
+      "pumpwell": "পাম্পওয়েল",
+      "pvs": "পিভিএস",
+      "kottakar": "কোট্টাকর",
+      "reports": "রিপোর্টস",
+      "export_as_csv": "সিএসভি হিসেবে এক্সপোর্ট করুন",
+      "export_as_pdf": "পিডিএফ হিসেবে এক্সপোর্ট করুন",
+      "meter_id": "মিটার আইডি",
+      "dates": "তারিখসমূহ",
+      "user_name": "ইউজারনেম",
+      "consumption": "কনজাম্পশন",
+      "status": "স্ট্যাটাস",
+      "active": "একটিভ",
+      "de-activated": "ডি-একটিভেটেড",
+      "previous": "পূর্ববর্তী",
+      "next": "পরবর্তী"
+    },
+    "setting_and_notifications": {
+      "user_management": "ইউজার ম্যানেজমেন্ট",
+      "subtitle": "আপনার অ্যালার্ট রুলস ও কমিউনিকেশন প্রেফারেন্স ম্যানেজ করুন।",
+      "settings": "সেটিংস",
+      "notification": "নোটিফিকেশন",
+      "alert_threshold": "অ্যালার্ট থ্রেশহোল্ড",
+      "alert_subtitle": "আপনার জোনের মিটারগুলির জন্য অটোমেটিক অ্যালার্ট ট্রিগার করে এমন কনজাম্পশন লিমিট সেট করুন।",
+      "high_consumption": "হাই কনজাম্পশন থ্রেশহোল্ড (কেডব্লিউএইচ)",
+      "low_consumption": "লো কনজাম্পশন থ্রেশহোল্ড (কেডব্লিউএইচ)",
+      "abnormal_reading": "অ্যাবনরমাল রিডিং ফ্রিকোয়েন্সি (ঘন্টা)",
+      "inactive_meters": "ইনএকটিভ মিটারস ডুরেশন (দিন)",
+      "day": "দিন",
+      "sunday": "রবিবার",
+      "save_and_continue": "সেভ এন্ড কন্টিনিউ"
+    }
+  },
+  "enterprise": {
+    "sidebar": {
+      "dashboard": "ড্যাশবোর্ড",
+      "zone_management": "জোন ম্যানেজমেন্ট",
+      "meter_management": "মিটার ম্যানেজমেন্ট",
+      "user_role_management": "ইউজার ও রোল ম্যানেজমেন্ট",
+      "audit_logs": "অডিট লগস",
+      "setting_configuration": "সেটিং ও কনফিগারেশন"
+    },
+    "dashboard": {
+      "enterprise_dashboard": "এন্টারপ্রাইজ ড্যাশবোর্ড",
+      "recent_alerts": "সাম্প্রতিক অ্যালার্টস",
+      "alert": "অ্যালার্ট",
+      "total_zones": "মোট জোনস",
+      "total_meters": "মোট মিটারস",
+      "critical_alerts": "ক্রিটিক্যাল অ্যালার্টস",
+      "average_consumption_per_zone": "প্রতি জোনে গড় কনজাম্পশন"
+    },
+    "zone_management": {
+      "zone_management": "জোন ম্যানেজমেন্ট",
+      "add_zone": "জোন অ্যাড করুন",
+      "zone_id": "জোন আইডি",
+      "zone_name": "জোন নাম",
+      "admin_assigned": "অ্যাডমিন অ্যাসাইনড",
+      "total_meters": "মোট মিটারস",
+      "status": "স্ট্যাটাস",
+      "more_action": "মোর অ্যাকশনস",
+      "view": "ভিউ",
+      "edit": "এডিট",
+      "delete": "ডিলিট",
+      "add_zone_title": "এটি জোন অ্যাড করার জন্য একটি ডায়লগ",
+      "admin": "অ্যাডমিন",
+      "location": "লোকেশন",
+      "description": "বিবরণ",
+      "address_pincode": "ঠিকানা বা পিনকোড",
+      "description_here": "এখানে বিবরণ লিখুন"
+    },
+    "meter_management": {
+      "meter_id": "মিটার আইডি",
+      "search_placeholder": "সার্চ..",
+      "global_meter_management": "গ্লোবাল মিটার ম্যানেজমেন্ট",
+      "add_meter": "মিটার অ্যাড করুন",
+      "zone": "জোন",
+      "owner": "মালিক",
+      "status": "স্ট্যাটাস",
+      "last_reading": "লাস্ট রিডিং",
+      "more_actions": "মোর অ্যাকশনস",
+      "view": "ভিউ",
+      "edit": "এডিট",
+      "delete": "ডিলিট",
+      "trend_chart_title": "প্রতি জোনের সময়ের সাথে এনার্জি ইউজের ট্রেন্ড"
+    },
+    "user_role_management": {
+      "user_role_management": "ইউজার ও রোল ম্যানেজমেন্ট",
+      "invite_user": "ইউজার ইনভাইট করুন",
+      "invite_user_description": "ইউজার ইনভাইট করার জন্য এটি একটি ডায়লগ।",
+      "comparison_chart_title": "প্রতি বছরে একটিভ ও ডি-একটিভ ইউজারদের মধ্যে কম্পেয়ারিজন",
+      "user_id": "ইউজার আইডি",
+      "name": "নাম",
+      "email": "ইমেল",
+      "role": "রোল",
+      "status": "স্ট্যাটাস"
+    },
+    "setting_configuration": {
+      "title": "সেটিং ও কনফিগারেশন",
+      "subtitle": "অর্গানাইজেশন-ওয়াইড কনফিগারেশন ও ইন্টিগ্রেশন ম্যানেজ করুন",
+      "policies_title": "পলিসি ও রুলস",
+      "policies_subtitle": "এন্টারপ্রাইজ-ওয়াইড অপারেশনাল কনস্ট্রেইন্ট ও রিটেনশন পলিসি ডিফাইন করুন।",
+      "data_retention": "ডেটা রিটেনশন পিরিয়ড (দিনে)",
+      "auto_logout": "অটো লগআউট টাইমার (মিনিট)",
+      "audit_retention": "অডিট লগ রিটেনশন (দিনে)",
+      "localization_title": "লোকালাইজেশন",
+      "localization_subtitle": "এন্টারপ্রাইজের রিজিওনাল প্রেফারেন্স ও ইউজার এক্সপেরিয়েন্স ডিফল্ট সেট করুন।",
+      "timezone": "টাইমজোন",
+      "default_language": "ডিফল্ট ল্যাঙ্গুয়েজ",
+      "currency_format": "কারেন্সি ফরম্যাট",
+      "save_changes": "পরিবর্তনগুলি সেভ করুন",
+      "tab_settings": "সেটিংস",
+      "tab_notification": "নোটিফিকেশন"
+    },
+    "audit_logs": {
+      "title": "অডিট লগস",
+      "status_filter": "স্ট্যাটাস",
+      "search_placeholder": "সার্চ...",
+      "export_csv": "সিএসভি হিসেবে এক্সপোর্ট করুন",
+      "export_pdf": "পিডিএফ হিসেবে এক্সপোর্ট করুন",
+      "id": "আইডি",
+      "timestamp": "টাইমস্ট্যাম্প",
+      "user": "ইউজার",
+      "resource": "রিসোর্স",
+      "status": "স্ট্যাটাস",
+      "active": "একটিভ",
+      "deactivated": "ডি-একটিভেটেড",
+      "view": "ভিউ",
+      "edit": "এডিট",
+      "delete": "ডিলিট"
+    },
+    "invite_user_form": {
+      "dialog": "ইউজার ইনভাইট করার জন্য এটি একটি ডায়লগ।",
+      "role": "রোল",
+      "zone": "জোন",
+      "email": "ইমেল",
+      "invite_user": "ইউজার ইনভাইট করুন"
+    },
+    "leafletmap": {
+      "remove_zone": "জোন রিমুভ করুন",
+      "require_attention": "অ্যাটেনশন প্রয়োজন",
+      "all_systems_normal": "সমস্ত সিস্টেম নরমাল",
+      "total_alerts": "মোট অ্যালার্টস",
+      "critical_alerts": "ক্রিটিক্যাল অ্যালার্টস",
+      "active_meters": "একটিভ মিটারস",
+      "total_meters": "মোট মিটারস"
+    }
+  },
+  "common": {
+    "no_data_available": "কোনো ডেটা উপলব্ধ নেই",
+    "invalid_selection": "ইনভ্যালিড সিলেকশন"
+  },
+  "access_denied": {
+    "access_denied": "অ্যাক্সেস ডিনাইড",
+    "message": "আপনি এই পেজ অ্যাক্সেস করার অথোরাইজড নন।",
+    "go_to_login": "লগইনে যান",
+    "go_back": "পিছনে যান"
+  }
+}

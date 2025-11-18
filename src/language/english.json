@@ -1,0 +1,346 @@
+{
+  "login": {
+    "login_form": "Login Form",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password",
+    "remember_me": "Remember me",
+    "login": "Login",
+    "test_credential": "Test Credentials (Click to autofill)"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "email": "Email",
+    "login": "Login",
+    "send_reset_link": "Send Reset Link"
+  },
+  "reset_password": {
+    "title": "Reset Password",
+    "email": "Enter Your Email",
+    "password": "Enter Your Password",
+    "update_password": "Update Password"
+  },
+  "header": {
+    "title": "MDMS",
+    "langSelector": {
+      "1": "en",
+      "2": "hi",
+      "3": "fr"
+    },
+    "my_profile": "My Profile",
+    "logout": "Logout"
+  },
+  "endUser": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "bills_and_payments": "Bills & Payments",
+      "meter_data": "Meter Data",
+      "alerts_and_notifications": "Alerts & Notifications",
+      "profile_and_settings": "Profile & Settings",
+      "logs": "Logs"
+    },
+    "dashboard": {
+      "welcome": "Welcome",
+      "last_sync_at": "Last synced at ",
+      "as_of": "As of",
+      "data_source": "Data Source:",
+      "zone": "Zone:",
+      "mwh": "MWh",
+      "due_on": "Due on",
+      "pending": "Pending",
+      "current_consumption": "Current Consumption",
+      "this_months_bill": "This Month's bill",
+      "outstanding_balance": "Outstanding Balance",
+      "paid_on": "Paid on",
+      "last_payment": "Last Payment",
+      "electricity_consumption_overview": "Electricity Consumption Overview",
+      "price": "Price",
+      "month": "Month",
+      "quick_actions": "Quick Actions",
+      "day": "Day",
+      "week": "Week",
+      "previous": "Previous",
+      "current": "Current",
+      "pay_bill": "Pay Bill",
+      "view_bill_history": "View Detailed Usage",
+      "manage_notification": "Manage Notification",
+      "tiny": "Tiny (M)",
+      "y_axis_hitting": "Y-axis (Hitting)",
+      "ratio_modelling": "Ratio (Modelling)",
+      "average_markdown": "Average Markdown"
+    },
+    "bills": {
+      "my_bills": "My Bills",
+      "month": "Month",
+      "amount": "Amount",
+      "due_date": "Due Date",
+      "status": "Status",
+      "actions": "Actions",
+      "pending": "Pending",
+      "paid": "Paid",
+      "view": "View",
+      "pay": "Pay",
+      "previous": "Previous",
+      "next": "Next",
+      "note": "Note : All bills are generated on the 1st of each month"
+    },
+    "bill_details": {
+      "bill_details": "Bill Details",
+      "date": "Date",
+      "starting": "Starting",
+      "convergents": "Convergents",
+      "unit": "Unit",
+      "download_pdf": "Download PDF",
+      "print_bill": "Print Bill",
+      "pay_now": "Pay Now"
+    },
+    "usage": {
+      "select_date_range": "Select Date Range",
+      "date": "Date",
+      "starting": "Starting",
+      "difference": "Difference",
+      "notes": "Notes"
+    },
+    "profile": {
+      "profile_settings": "Profile & Settings",
+      "profile": "Profile",
+      "security": "Security",
+      "notification": "Notification",
+      "name": "name",
+      "email1": "email",
+      "user_name": "User name",
+      "mobile_no": "mobile No.",
+      "save_and_continue": "Save and continue",
+      "current_password": "current password",
+      "new_password": "new password",
+      "confirm_password": "confirm password",
+      "notifications_from": "You can get notifications from",
+      "email": "Email",
+      "sms": "SMS",
+      "push": "Push",
+      "loading":"Loading",
+      "invalid_selection":"Invalid selection"
+    },
+    "alert_notification":{
+      "no_notification": "No Notification is Selected."
+    },
+    "logs":{
+      "title": "Logs Page"
+    }
+  },
+  "zoneUser": {
+    "sidebar": {
+      "dashborad": "Dashboard",
+      "meter_management": "Meter Management",
+      "user_management": "User Management",
+      "reports_analytics": "Reports & Analytics",
+      "settings_notification": "Setting & Notifications"
+    },
+    "dashboard": {
+      "zone_dashboard": "Zone Dashboard",
+      "active_meters": "Active Meters",
+      "avg_usage": "Avg Usage",
+      "pending_alert": "Pending Alert",
+      "analytics_chart": "Analytics Chart",
+      "week": "Week",
+      "month": "Month",
+      "add_meter": "Add Meter",
+      "generate_report": "Generate Report"
+    },
+    "meter_management": {
+      "meter_management": "Meter Management",
+      "bulk_operations": "Bulk Operations",
+      "meter_id": "Meter ID",
+      "zone": "Zone",
+      "owner": "Owner",
+      "status": "Status",
+      "last_reading": "Last Reading",
+      "more_actions": "More Action",
+      "view": "View",
+      "edit": "Edit",
+      "active": "Active",
+      "import_csv": "Import CSV",
+      "export_csv": "Export CSV",
+      "de_activate_meters": "De-Activate Meters"
+    },
+    "user_management": {
+      "user_management": "User Management",
+      "invite_user": "Invite User",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "zone": "Zone",
+      "status": "Status",
+      "abc": "abc",
+      "id": "ID",
+      "more_actions": "More Action",
+      "edit": "Edit",
+      "active": "Active",
+      "reset_password": "Reset Password",
+      "search": "Search.."
+    },
+    "reports_and_analytics": {
+      "reports_and_analytics": "Reports and Analytics",
+      "trend_of_energy_usage_over_time": "Trend of energy usage over time.",
+      "compare_zone_consumption": "Compare zone consumption",
+      "zone": "Zone",
+      "2025": "2025",
+      "mangalore": "Mangalore",
+      "bajaj": "Bajaj",
+      "pumpwell": "Pumpwell",
+      "pvs": "PVS",
+      "kottakar": "Kottakar",
+      "reports": "Reports",
+      "export_as_csv": "Export as CSV",
+      "export_as_pdf": "Export as PDF",
+      "meter_id": "Meter ID",
+      "dates": "Dates",
+      "user_name": "User name",
+      "consumption": "Consumption",
+      "status": "Status",
+      "active": "Active",
+      "de-activated": "De-Activated",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "setting_and_notifications": {
+      "user_management": "User Management",
+      "subtitle": "Manage your alert rules and communication preferences.",
+      "settings": "Settings",
+      "notification": "Notification",
+      "alert_threshold": "Alert Thresholds",
+      "alert_subtitle": "Set Consumption limits that trigger automatic alerts for meters in your zone.",
+      "high_consumption": "High Consumption Threshold (kWh)",
+      "low_consumption": "Low Consumption Threshold (kWh)",
+      "abnormal_reading": "Abnormal Reading Frequency (hours)",
+      "inactive_meters": "Inactive Meters Duration (days)",
+      "day": "Day",
+      "sunday": "Sunday",
+      "save_and_continue": "Save and continue"
+    }
+  },
+  "enterprise": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "zone_management": "Zone Management",
+      "meter_management": "Meter Management",
+      "user_role_management": "User & Role Management",
+      "audit_logs": "Audit Logs",
+      "setting_configuration": "Setting & Configuration"
+    },
+    "dashboard": {
+      "enterprise_dashboard": "Enterprise Dashboard",
+      "recent_alerts": "Recent Alerts",
+      "alert": "Alert",
+      "total_zones": "Total Zones",
+      "total_meters": "Total Meters",
+      "critical_alerts": "Critical Alerts",
+      "average_consumption_per_zone": "Average Consumption Per Zone"
+    },
+    "zone_management": {
+      "zone_management": "Zone Management",
+      "add_zone": "Add Zone",
+      "zone_id": "Zone ID",
+      "zone_name": "Zone Name",
+      "admin_assigned": "Admin Assigned",
+      "total_meters": "Total Meters",
+      "status": "Status",
+      "more_action": "More Actions",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add_zone_title": "This is a dialogue for adding zone",
+      "admin": "Admin",
+      "location": "Location",
+      "description": "Description",
+      "address_pincode": "Address or Pincode",
+      "description_here": "Description Here"
+    },
+    "meter_management": {
+      "meter_id": "Meter ID",
+      "search_placeholder": "Search..",
+      "global_meter_management": "Global Meter Management",
+      "add_meter": "Add Meter",
+      "zone": "Zone",
+      "owner": "Owner",
+      "status": "Status",
+      "last_reading": "Last Reading",
+      "more_actions": "More Actions",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "trend_chart_title": "Each Zone’s Trend of Energy Usage Over Time"
+    },
+    "user_role_management": {
+      "user_role_management": "User and Role Management",
+      "invite_user": "Invite User",
+      "invite_user_description": "This is a dialogue for inviting user.",
+      "comparison_chart_title": "Comparison between Active and De-Active users on each year",
+      "user_id": "User ID",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status"
+    },
+    "setting_configuration": {
+      "title": "Setting & Configuration",
+      "subtitle": "Manage organization-wide configurations and integrations",
+      "policies_title": "Policies & Rules",
+      "policies_subtitle": "Define enterprise-wide operational constraints and retention policies.",
+      "data_retention": "Data Retention Period (in days)",
+      "auto_logout": "Auto Logout Timer (minutes)",
+      "audit_retention": "Audit Log Retention (in days)",
+      "localization_title": "Localization",
+      "localization_subtitle": "Set the enterprise's regional preferences and user experience defaults.",
+      "timezone": "Timezone",
+      "default_language": "Default Language",
+      "currency_format": "Currency Format",
+      "save_changes": "Save the changes",
+      "tab_settings": "Settings",
+      "tab_notification": "Notification"
+    },
+    "audit_logs": {
+      "title": "Audit Logs",
+      "status_filter": "Status",
+      "search_placeholder": "Search...",
+      "export_csv": "Export as CSV",
+      "export_pdf": "Export as PDF",
+      "id": "ID",
+      "timestamp": "Timestamp",
+      "user": "User",
+      "resource": "Resource",
+      "status": "Status",
+      "active": "Active",
+      "deactivated": "De-Activated",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "invite_user_form": {
+      "dialog": "This is a dialogue for inviting user.",
+      "role": "Role",
+      "zone": "Zone",
+      "email": "Email",
+      "invite_user": "Invite User"
+    },
+    "leafletmap": {
+      "remove_zone": " Remove Zone",
+      "require_attention": "Requires Attention",
+      "all_systems_normal": "All Systems Normal",
+      "total_alerts": "Total Alerts",
+      "critical_alerts": "Critical Alerts",
+      "active_meters": "Active Meters",
+      "total_meters": "Total Meters"
+    }
+  },
+  "common": {
+    "no_data_available": "No data available",
+    "invalid_selection": "Invalid selection"
+  },
+  "access_denied": {
+    "access_denied": "Access Denied",
+    "message": "You are not authorized to access this page.",
+    "go_to_login": "Go to Login",
+    "go_back": "Go Back"
+  }
+}

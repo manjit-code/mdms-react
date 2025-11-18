@@ -1,34 +1,28 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, {useState} from 'react'
+import { useSelector } from 'react-redux';
 
-export default function FloatingLabelInput({ label, value, onChange, type = "text" }) {
-  const theme = useSelector((state) => state.theme.colors);
-  const isFilled = value && value.length > 0;
+export default function FloatingLabelInput({ label, value, onChange, placeholder, className = "" }) {
+  const theme = useSelector(state => state.theme.colors);
+  const [isFocused, setIsFocused] = useState(false);
+  const hasValue = value && value.length > 0;
 
   return (
-    <div className="relative w-full mt-6">
+    <div className={`relative ${className}`}>
       <input
-        type={type}
+        type="text"
         value={value}
         onChange={onChange}
-        className={`
-          w-full rounded-md px-3 pt-6 pb-2 text-sm border
-          ${theme.input.base} ${theme.input.focus} ${theme.border.input}
-          ${theme.text.primary}
-          outline-none focus:ring-2 focus:ring-opacity-50
-        `}
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
+        placeholder={placeholder}
+        className={`w-full px-4 py-3 rounded-lg ${theme.input.base} ${theme.input.focus} transition-all duration-200 outline-none`}
       />
-
-      {/* Label - Always floated when there's a value */}
       <label
-        className={`
-          absolute left-3 transition-all duration-200 pointer-events-none z-10
-          ${isFilled
-            ? `top-0 -translate-y-1/2 text-xs ${theme.background.card} px-1`
-            : 'top-3.5 text-sm text-gray-500'
-          }
-          focus-within:top-0 focus-within:-translate-y-1/2 focus-within:text-xs focus-within:bg-white focus-within:px-1
-        `}
+        className={`absolute left-4 transition-all duration-200 pointer-events-none ${
+          isFocused || hasValue
+            ? '-top-2 text-xs bg-white dark:bg-slate-700 px-1 text-blue-600 dark:text-indigo-400'
+            : 'top-3 text-sm text-gray-400'
+        }`}
       >
         {label}
       </label>

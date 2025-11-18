@@ -1,0 +1,346 @@
+{
+  "login": {
+    "login_form": "ಲಾಗಿನ್ ಫಾರ್ಮ್",
+    "email": "ಇಮೇಲ್",
+    "password": "ಪಾಸ್ವರ್ಡ್",
+    "forgot_password": "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ",
+    "remember_me": "ನನ್ನನ್ನು ನೆನಪಿಡಿ",
+    "login": "ಲಾಗಿನ್",
+    "test_credential": "ಪರೀಕ್ಷಾ ದೃಢೀಕರಣ (ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ)"
+  },
+  "forgot_password": {
+    "title": "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ",
+    "email": "ಇಮೇಲ್",
+    "login": "ಲಾಗಿನ್",
+    "send_reset_link": "ರೀಸೆಟ್ ಲಿಂಕ್ ಕಳುಹಿಸಿ"
+  },
+  "reset_password": {
+    "title": "ಪಾಸ್ವರ್ಡ್ ರೀಸೆಟ್ ಮಾಡಿ",
+    "email": "ನಿಮ್ಮ ಇಮೇಲ್ ನಮೂದಿಸಿ",
+    "password": "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+    "update_password": "ಪಾಸ್ವರ್ಡ್ ನವೀಕರಿಸಿ"
+  },
+  "header": {
+    "title": "ಎಂಡಿಎಮ್ಎಸ್",
+    "langSelector": {
+      "1": "ಇಂಗ್ಲಿಷ್",
+      "2": "ಹಿಂದಿ",
+      "3": "ಫ್ರೆಂಚ್"
+    },
+    "my_profile": "ನನ್ನ ಪ್ರೊಫೈಲ್",
+    "logout": "ಲಾಗ್ ಔಟ್"
+  },
+  "endUser": {
+    "sidebar": {
+      "dashboard": "ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+      "bills_and_payments": "ಬಿಲ್ಲುಗಳು ಮತ್ತು ಪಾವತಿಗಳು",
+      "meter_data": "ಮೀಟರ್ ಡೇಟಾ",
+      "alerts_and_notifications": "ಎಚ್ಚರಿಕೆಗಳು ಮತ್ತು ಅಧಿಸೂಚನೆಗಳು",
+      "profile_and_settings": "ಪ್ರೊಫೈಲ್ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್ಗಳು",
+      "logs": "ಲಾಗ್ಗಳು"
+    },
+    "dashboard": {
+      "welcome": "ಸ್ವಾಗತ",
+      "last_sync_at": "ಕೊನೆಯ ಸಿಂಕ್ ಮಾಡಿದ ಸಮಯ",
+      "as_of": "ಈ ವರೆಗೆ",
+      "data_source": "ಡೇಟಾ ಮೂಲ:",
+      "zone": "ಜೋನ್:",
+      "mwh": "ಎಮ್ಡಬ್ಲ್ಯೂಎಚ್",
+      "due_on": "ಕೊನೆ ದಿನಾಂಕ",
+      "pending": "ಬಾಕಿ",
+      "current_consumption": "ಪ್ರಸ್ತುತ ಬಳಕೆ",
+      "this_months_bill": "ಈ ತಿಂಗಳ ಬಿಲ್",
+      "outstanding_balance": "ಬಾಕಿ ಬಾಕಿ",
+      "paid_on": "ಪಾವತಿ ಮಾಡಿದ ದಿನಾಂಕ",
+      "last_payment": "ಕೊನೆಯ ಪಾವತಿ",
+      "electricity_consumption_overview": "ವಿದ್ಯುತ್ ಬಳಕೆ ಅವಲೋಕನ",
+      "price": "ಬೆಲೆ",
+      "month": "ತಿಂಗಳು",
+      "quick_actions": "ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+      "day": "ದಿನ",
+      "week": "ವಾರ",
+      "previous": "ಹಿಂದಿನ",
+      "current": "ಪ್ರಸ್ತುತ",
+      "pay_bill": "ಬಿಲ್ ಪಾವತಿಸಿ",
+      "view_bill_history": "ವಿವರವಾದ ಬಳಕೆ ನೋಡಿ",
+      "manage_notification": "ಅಧಿಸೂಚನೆ ನಿರ್ವಹಿಸಿ",
+      "tiny": "ಸಣ್ಣ (ಎಮ್)",
+      "y_axis_hitting": "ವೈ-ಅಕ್ಷ (ಹಿಟ್ಟಿಂಗ್)",
+      "ratio_modelling": "ಅನುಪಾತ (ಮಾಡೆಲಿಂಗ್)",
+      "average_markdown": "ಸರಾಸರಿ ಮಾರ್ಕ್ಡೌನ್"
+    },
+    "bills": {
+      "my_bills": "ನನ್ನ ಬಿಲ್ಲುಗಳು",
+      "month": "ತಿಂಗಳು",
+      "amount": "ಮೊತ್ತ",
+      "due_date": "ಕೊನೆ ದಿನಾಂಕ",
+      "status": "ಸ್ಥಿತಿ",
+      "actions": "ಕ್ರಿಯೆಗಳು",
+      "pending": "ಬಾಕಿ",
+      "paid": "ಪಾವತಿಸಲಾಗಿದೆ",
+      "view": "ನೋಡಿ",
+      "pay": "ಪಾವತಿಸಿ",
+      "previous": "ಹಿಂದಿನ",
+      "next": "ಮುಂದಿನ",
+      "note": "ಗಮನಿಸಿ : ಎಲ್ಲಾ ಬಿಲ್ಲುಗಳು ಪ್ರತಿ ತಿಂಗಳ 1 ರಂದು ಉತ್ಪಾದಿಸಲ್ಪಡುತ್ತವೆ"
+    },
+    "bill_details": {
+      "bill_details": "ಬಿಲ್ ವಿವರಗಳು",
+      "date": "ದಿನಾಂಕ",
+      "starting": "ಆರಂಭ",
+      "convergents": "ಕನ್ವರ್ಜೆಂಟ್ಸ್",
+      "unit": "ಯೂನಿಟ್",
+      "download_pdf": "ಪಿಡಿಎಫ್ ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
+      "print_bill": "ಬಿಲ್ ಮುದ್ರಿಸಿ",
+      "pay_now": "ಈಗ ಪಾವತಿಸಿ"
+    },
+    "usage": {
+      "select_date_range": "ದಿನಾಂಕ ಶ್ರೇಣಿ ಆಯ್ಕೆಮಾಡಿ",
+      "date": "ದಿನಾಂಕ",
+      "starting": "ಆರಂಭ",
+      "difference": "ವ್ಯತ್ಯಾಸ",
+      "notes": "ಟಿಪ್ಪಣಿಗಳು"
+    },
+    "profile": {
+      "profile_settings": "ಪ್ರೊಫೈಲ್ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್ಗಳು",
+      "profile": "ಪ್ರೊಫೈಲ್",
+      "security": "ಭದ್ರತೆ",
+      "notification": "ಅಧಿಸೂಚನೆ",
+      "name": "ಹೆಸರು",
+      "email1": "ಇಮೇಲ್",
+      "user_name": "ಬಳಕೆದಾರ ಹೆಸರು",
+      "mobile_no": "ಮೊಬೈಲ್ ನಂ.",
+      "save_and_continue": "ಉಳಿಸಿ ಮತ್ತು ಮುಂದುವರಿಸಿ",
+      "current_password": "ಪ್ರಸ್ತುತ ಪಾಸ್ವರ್ಡ್",
+      "new_password": "ಹೊಸ ಪಾಸ್ವರ್ಡ್",
+      "confirm_password": "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+      "notifications_from": "ನೀವು ಅಧಿಸೂಚನೆಗಳನ್ನು ಪಡೆಯಬಹುದು",
+      "email": "ಇಮೇಲ್",
+      "sms": "ಎಸ್ಎಮ್ಎಸ್",
+      "push": "ಪುಶ್",
+      "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+      "invalid_selection": "ಅಮಾನ್ಯ ಆಯ್ಕೆ"
+    },
+    "alert_notification": {
+      "no_notification": "ಯಾವುದೇ ಅಧಿಸೂಚನೆ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ."
+    },
+    "logs": {
+      "title": "ಲಾಗ್ಗಳ ಪುಟ"
+    }
+  },
+  "zoneUser": {
+    "sidebar": {
+      "dashborad": "ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+      "meter_management": "ಮೀಟರ್ ನಿರ್ವಹಣೆ",
+      "user_management": "ಬಳಕೆದಾರ ನಿರ್ವಹಣೆ",
+      "reports_analytics": "ವರದಿಗಳು ಮತ್ತು ವಿಶ್ಲೇಷಣೆ",
+      "settings_notification": "ಸೆಟ್ಟಿಂಗ್ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳು"
+    },
+    "dashboard": {
+      "zone_dashboard": "ಜೋನ್ ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+      "active_meters": "ಸಕ್ರಿಯ ಮೀಟರ್ಗಳು",
+      "avg_usage": "ಸರಾಸರಿ ಬಳಕೆ",
+      "pending_alert": "ಬಾಕಿ ಎಚ್ಚರಿಕೆ",
+      "analytics_chart": "ವಿಶ್ಲೇಷಣಾ ಚಾರ್ಟ್",
+      "week": "ವಾರ",
+      "month": "ತಿಂಗಳು",
+      "add_meter": "ಮೀಟರ್ ಸೇರಿಸಿ",
+      "generate_report": "ವರದಿ ರಚಿಸಿ"
+    },
+    "meter_management": {
+      "meter_management": "ಮೀಟರ್ ನಿರ್ವಹಣೆ",
+      "bulk_operations": "ಬಲ್ಕ್ ಕಾರ್ಯಾಚರಣೆಗಳು",
+      "meter_id": "ಮೀಟರ್ ಐಡಿ",
+      "zone": "ಜೋನ್",
+      "owner": "ಮಾಲಿಕ",
+      "status": "ಸ್ಥಿತಿ",
+      "last_reading": "ಕೊನೆಯ ರೀಡಿಂಗ್",
+      "more_actions": "ಹೆಚ್ಚಿನ ಕ್ರಿಯೆಗಳು",
+      "view": "ನೋಡಿ",
+      "edit": "ಸಂಪಾದಿಸಿ",
+      "active": "ಸಕ್ರಿಯ",
+      "import_csv": "ಸಿಎಸ್ವಿ ಆಮದು ಮಾಡಿ",
+      "export_csv": "ಸಿಎಸ್ವಿ ರಫ್ತು ಮಾಡಿ",
+      "de_activate_meters": "ಮೀಟರ್ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+    },
+    "user_management": {
+      "user_management": "ಬಳಕೆದಾರ ನಿರ್ವಹಣೆ",
+      "invite_user": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ",
+      "name": "ಹೆಸರು",
+      "email": "ಇಮೇಲ್",
+      "role": "ಪಾತ್ರ",
+      "zone": "ಜೋನ್",
+      "status": "ಸ್ಥಿತಿ",
+      "abc": "ಎಬಿಸಿ",
+      "id": "ಐಡಿ",
+      "more_actions": "ಹೆಚ್ಚಿನ ಕ್ರಿಯೆಗಳು",
+      "edit": "ಸಂಪಾದಿಸಿ",
+      "active": "ಸಕ್ರಿಯ",
+      "reset_password": "ಪಾಸ್ವರ್ಡ್ ರೀಸೆಟ್ ಮಾಡಿ",
+      "search": "ಹುಡುಕಿ.."
+    },
+    "reports_and_analytics": {
+      "reports_and_analytics": "ವರದಿಗಳು ಮತ್ತು ವಿಶ್ಲೇಷಣೆ",
+      "trend_of_energy_usage_over_time": "ಕಾಲಾನುಕ್ರಮದ ಶಕ್ತಿ ಬಳಕೆಯ ಪ್ರವೃತ್ತಿ.",
+      "compare_zone_consumption": "ಜೋನ್ ಬಳಕೆ ಹೋಲಿಕೆ ಮಾಡಿ",
+      "zone": "ಜೋನ್",
+      "2025": "2025",
+      "mangalore": "ಮಂಗಳೂರು",
+      "bajaj": "ಬಜಾಜ್",
+      "pumpwell": "ಪಂಪ್ವೆಲ್",
+      "pvs": "ಪಿವಿಎಸ್",
+      "kottakar": "ಕೊಟ್ಟಕರ್",
+      "reports": "ವರದಿಗಳು",
+      "export_as_csv": "ಸಿಎಸ್ವಿ ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+      "export_as_pdf": "ಪಿಡಿಎಫ್ ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+      "meter_id": "ಮೀಟರ್ ಐಡಿ",
+      "dates": "ದಿನಾಂಕಗಳು",
+      "user_name": "ಬಳಕೆದಾರ ಹೆಸರು",
+      "consumption": "ಬಳಕೆ",
+      "status": "ಸ್ಥಿತಿ",
+      "active": "ಸಕ್ರಿಯ",
+      "de-activated": "ನಿಷ್ಕ್ರಿಯ",
+      "previous": "ಹಿಂದಿನ",
+      "next": "ಮುಂದಿನ"
+    },
+    "setting_and_notifications": {
+      "user_management": "ಬಳಕೆದಾರ ನಿರ್ವಹಣೆ",
+      "subtitle": "ನಿಮ್ಮ ಎಚ್ಚರಿಕೆ ನಿಯಮಗಳು ಮತ್ತು ಸಂವಹನ ಆದ್ಯತೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ.",
+      "settings": "ಸೆಟ್ಟಿಂಗ್ಗಳು",
+      "notification": "ಅಧಿಸೂಚನೆ",
+      "alert_threshold": "ಎಚ್ಚರಿಕೆ ಮಿತಿಗಳು",
+      "alert_subtitle": "ನಿಮ್ಮ ಜೋನ್ನಲ್ಲಿರುವ ಮೀಟರ್ಗಳಿಗೆ ಸ್ವಯಂಚಾಲಿತ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಪ್ರಚೋದಿಸುವ ಬಳಕೆ ಮಿತಿಗಳನ್ನು ಹೊಂದಿಸಿ.",
+      "high_consumption": "ಹೆಚ್ಚಿನ ಬಳಕೆ ಮಿತಿ (ಕೆಡಬ್ಲ್ಯೂಎಚ್)",
+      "low_consumption": "ಕಡಿಮೆ ಬಳಕೆ ಮಿತಿ (ಕೆಡಬ್ಲ್ಯೂಎಚ್)",
+      "abnormal_reading": "ಅಸಾಧಾರಣ ರೀಡಿಂಗ್ ಆವರ್ತನ (ಗಂಟೆಗಳು)",
+      "inactive_meters": "ನಿಷ್ಕ್ರಿಯ ಮೀಟರ್ಗಳ ಅವಧಿ (ದಿನಗಳು)",
+      "day": "ದಿನ",
+      "sunday": "ಭಾನುವಾರ",
+      "save_and_continue": "ಉಳಿಸಿ ಮತ್ತು ಮುಂದುವರಿಸಿ"
+    }
+  },
+  "enterprise": {
+    "sidebar": {
+      "dashboard": "ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+      "zone_management": "ಜೋನ್ ನಿರ್ವಹಣೆ",
+      "meter_management": "ಮೀಟರ್ ನಿರ್ವಹಣೆ",
+      "user_role_management": "ಬಳಕೆದಾರ ಮತ್ತು ಪಾತ್ರ ನಿರ್ವಹಣೆ",
+      "audit_logs": "ಆಡಿಟ್ ಲಾಗ್ಗಳು",
+      "setting_configuration": "ಸೆಟ್ಟಿಂಗ್ ಮತ್ತು ಕಾನ್ಫಿಗರೇಶನ್"
+    },
+    "dashboard": {
+      "enterprise_dashboard": "ಎಂಟರ್ಪ್ರೈಸ್ ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+      "recent_alerts": "ಇತ್ತೀಚಿನ ಎಚ್ಚರಿಕೆಗಳು",
+      "alert": "ಎಚ್ಚರಿಕೆ",
+      "total_zones": "ಒಟ್ಟು ಜೋನ್ಗಳು",
+      "total_meters": "ಒಟ್ಟು ಮೀಟರ್ಗಳು",
+      "critical_alerts": "ಗಂಭೀರ ಎಚ್ಚರಿಕೆಗಳು",
+      "average_consumption_per_zone": "ಪ್ರತಿ ಜೋನ್ಗೆ ಸರಾಸರಿ ಬಳಕೆ"
+    },
+    "zone_management": {
+      "zone_management": "ಜೋನ್ ನಿರ್ವಹಣೆ",
+      "add_zone": "ಜೋನ್ ಸೇರಿಸಿ",
+      "zone_id": "ಜೋನ್ ಐಡಿ",
+      "zone_name": "ಜೋನ್ ಹೆಸರು",
+      "admin_assigned": "ನಿಯೋಜಿತ ಆಡ್ಮಿನ್",
+      "total_meters": "ಒಟ್ಟು ಮೀಟರ್ಗಳು",
+      "status": "ಸ್ಥಿತಿ",
+      "more_action": "ಹೆಚ್ಚಿನ ಕ್ರಿಯೆಗಳು",
+      "view": "ನೋಡಿ",
+      "edit": "ಸಂಪಾದಿಸಿ",
+      "delete": "ಅಳಿಸಿ",
+      "add_zone_title": "ಇದು ಜೋನ್ ಸೇರಿಸಲು ಸಂವಾದವಾಗಿದೆ",
+      "admin": "ಆಡ್ಮಿನ್",
+      "location": "ಸ್ಥಳ",
+      "description": "ವಿವರಣೆ",
+      "address_pincode": "ವಿಳಾಸ ಅಥವಾ ಪಿನ್ಕೋಡ್",
+      "description_here": "ಇಲ್ಲಿ ವಿವರಣೆ"
+    },
+    "meter_management": {
+      "meter_id": "ಮೀಟರ್ ಐಡಿ",
+      "search_placeholder": "ಹುಡುಕಿ..",
+      "global_meter_management": "ಗ್ಲೋಬಲ್ ಮೀಟರ್ ನಿರ್ವಹಣೆ",
+      "add_meter": "ಮೀಟರ್ ಸೇರಿಸಿ",
+      "zone": "ಜೋನ್",
+      "owner": "ಮಾಲಿಕ",
+      "status": "ಸ್ಥಿತಿ",
+      "last_reading": "ಕೊನೆಯ ರೀಡಿಂಗ್",
+      "more_actions": "ಹೆಚ್ಚಿನ ಕ್ರಿಯೆಗಳು",
+      "view": "ನೋಡಿ",
+      "edit": "ಸಂಪಾದಿಸಿ",
+      "delete": "ಅಳಿಸಿ",
+      "trend_chart_title": "ಪ್ರತಿ ಜೋನ್ನ ಕಾಲಾನುಕ್ರಮದ ಶಕ್ತಿ ಬಳಕೆಯ ಪ್ರವೃತ್ತಿ"
+    },
+    "user_role_management": {
+      "user_role_management": "ಬಳಕೆದಾರ ಮತ್ತು ಪಾತ್ರ ನಿರ್ವಹಣೆ",
+      "invite_user": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ",
+      "invite_user_description": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಲು ಇದು ಸಂವಾದವಾಗಿದೆ.",
+      "comparison_chart_title": "ಪ್ರತಿ ವರ್ಷದಲ್ಲಿ ಸಕ್ರಿಯ ಮತ್ತು ನಿಷ್ಕ್ರಿಯ ಬಳಕೆದಾರರ ನಡುವಿನ ಹೋಲಿಕೆ",
+      "user_id": "ಬಳಕೆದಾರ ಐಡಿ",
+      "name": "ಹೆಸರು",
+      "email": "ಇಮೇಲ್",
+      "role": "ಪಾತ್ರ",
+      "status": "ಸ್ಥಿತಿ"
+    },
+    "setting_configuration": {
+      "title": "ಸೆಟ್ಟಿಂಗ್ ಮತ್ತು ಕಾನ್ಫಿಗರೇಶನ್",
+      "subtitle": "ಸಂಸ್ಥೆಯ ವ್ಯಾಪ್ತಿಯ ಕಾನ್ಫಿಗರೇಶನ್ಗಳು ಮತ್ತು ಏಕೀಕರಣಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
+      "policies_title": "ನೀತಿಗಳು ಮತ್ತು ನಿಯಮಗಳು",
+      "policies_subtitle": "ಎಂಟರ್ಪ್ರೈಸ್-ವ್ಯಾಪ್ತಿಯ ಕಾರ್ಯಾಚರಣೆಯ ನಿರ್ಬಂಧಗಳು ಮತ್ತು ರಿಟೆನ್ಷನ್ ನೀತಿಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಿ.",
+      "data_retention": "ಡೇಟಾ ರಿಟೆನ್ಷನ್ ಅವಧಿ (ದಿನಗಳಲ್ಲಿ)",
+      "auto_logout": "ಸ್ವಯಂ ಲಾಗ್ ಔಟ್ ಟೈಮರ್ (ನಿಮಿಷಗಳು)",
+      "audit_retention": "ಆಡಿಟ್ ಲಾಗ್ ರಿಟೆನ್ಷನ್ (ದಿನಗಳಲ್ಲಿ)",
+      "localization_title": "ಸ್ಥಳೀಕರಣ",
+      "localization_subtitle": "ಎಂಟರ್ಪ್ರೈಸ್ನ ಪ್ರಾದೇಶಿಕ ಆದ್ಯತೆಗಳು ಮತ್ತು ಬಳಕೆದಾರ ಅನುಭವ ಡೀಫಾಲ್ಟ್ಗಳನ್ನು ಹೊಂದಿಸಿ.",
+      "timezone": "ಟೈಮ್ ಜೋನ್",
+      "default_language": "ಡೀಫಾಲ್ಟ್ ಭಾಷೆ",
+      "currency_format": "ಕರೆನ್ಸಿ ಫಾರ್ಮ್ಯಾಟ್",
+      "save_changes": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ",
+      "tab_settings": "ಸೆಟ್ಟಿಂಗ್ಗಳು",
+      "tab_notification": "ಅಧಿಸೂಚನೆ"
+    },
+    "audit_logs": {
+      "title": "ಆಡಿಟ್ ಲಾಗ್ಗಳು",
+      "status_filter": "ಸ್ಥಿತಿ",
+      "search_placeholder": "ಹುಡುಕಿ...",
+      "export_csv": "ಸಿಎಸ್ವಿ ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+      "export_pdf": "ಪಿಡಿಎಫ್ ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+      "id": "ಐಡಿ",
+      "timestamp": "ಟೈಮ್ಸ್ಟ್ಯಾಂಪ್",
+      "user": "ಬಳಕೆದಾರ",
+      "resource": "ರಿಸೋರ್ಸ್",
+      "status": "ಸ್ಥಿತಿ",
+      "active": "ಸಕ್ರಿಯ",
+      "deactivated": "ನಿಷ್ಕ್ರಿಯ",
+      "view": "ನೋಡಿ",
+      "edit": "ಸಂಪಾದಿಸಿ",
+      "delete": "ಅಳಿಸಿ"
+    },
+    "invite_user_form": {
+      "dialog": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಲು ಇದು ಸಂವಾದವಾಗಿದೆ.",
+      "role": "ಪಾತ್ರ",
+      "zone": "ಜೋನ್",
+      "email": "ಇಮೇಲ್",
+      "invite_user": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ"
+    },
+    "leafletmap": {
+      "remove_zone": "ಜೋನ್ ತೆಗೆದುಹಾಕಿ",
+      "require_attention": "ಗಮನ ಬೇಕು",
+      "all_systems_normal": "ಎಲ್ಲಾ ವ್ಯವಸ್ಥೆಗಳು ಸಾಮಾನ್ಯ",
+      "total_alerts": "ಒಟ್ಟು ಎಚ್ಚರಿಕೆಗಳು",
+      "critical_alerts": "ಗಂಭೀರ ಎಚ್ಚರಿಕೆಗಳು",
+      "active_meters": "ಸಕ್ರಿಯ ಮೀಟರ್ಗಳು",
+      "total_meters": "ಒಟ್ಟು ಮೀಟರ್ಗಳು"
+    }
+  },
+  "common": {
+    "no_data_available": "ಯಾವುದೇ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ",
+    "invalid_selection": "ಅಮಾನ್ಯ ಆಯ್ಕೆ"
+  },
+  "access_denied": {
+    "access_denied": "ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ",
+    "message": "ಈ ಪುಟವನ್ನು ಪ್ರವೇಶಿಸಲು ನಿಮಗೆ ಅಧಿಕಾರವಿಲ್ಲ.",
+    "go_to_login": "ಲಾಗಿನ್ಗೆ ಹೋಗಿ",
+    "go_back": "ಹಿಂದೆ ಹೋಗಿ"
+  }
+}

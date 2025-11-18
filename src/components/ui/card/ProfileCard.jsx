@@ -11,7 +11,7 @@ export default function ProfileCard() {
   const [email, setEmail] = useState('')
   const [mobile, setMobile] = useState('')
   return (
-    <div className={`${theme.background.card} p-5 rounded-md h-auto flex flex-col items-center justify-center space-y-5 w-2/5`}>
+    <div className={`${theme.background.card} p-5 rounded-lg shadow-md flex flex-col items-center space-y-5 w-full sm:w-2/5`}>
       <div className="relative w-fit h-fit flex justify-center items-center">
         <div className={`w-24 h-24 rounded-full flex items-center justify-center ${theme.background.secondary || 'bg-black'}`}>
           <User size={48} className={`${theme.text.primary || 'text-white'}`} />
@@ -26,7 +26,7 @@ export default function ProfileCard() {
           <Edit3 size={16} className={`${theme.text.primary|| 'text-black'}`} />
         </div>
       </div>
-      <div className='w-2/3'>
+      <div className='w-2/3 flex flex-col space-y-2'>
         <FloatingLabelInput label={t('endUser.profile.name')} value={name} onChange={e => setName(e.target.value)} />
         <FloatingLabelInput label={t('endUser.profile.email1')} value={email} onChange={e => setEmail(e.target.value)} />
         <FloatingLabelInput label={t('endUser.profile.mobile_no')} value={mobile} onChange={e => setMobile(e.target.value)} />

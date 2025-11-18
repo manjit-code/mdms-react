@@ -1,0 +1,367 @@
+{
+  "login": {
+    "login_form": "लॉगिन फ़ॉर्म",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए",
+    "remember_me": "मुझे याद रखें",
+    "login": "लॉगिन",
+    "test_credential": "टेस्ट क्रेडेंशियल्स (ऑटोफिल के लिए क्लिक करें)"
+  },
+
+  "forgot_password": {
+    "title": "पासवर्ड भूल गए",
+    "email": "ईमेल",
+    "login": "लॉगिन",
+    "send_reset_link": "रीसेट लिंक भेजें"
+  },
+
+  "reset_password": {
+    "title": "पासवर्ड रीसेट करें",
+    "email": "अपना ईमेल दर्ज करें",
+    "password": "अपना पासवर्ड दर्ज करें",
+    "update_password": "पासवर्ड अपडेट करें"
+  },
+
+  "header": {
+    "title": "MDMS",
+    "langSelector": {
+      "1": "अंग्रेज़ी",
+      "2": "हिंदी",
+      "3": "फ़्रेंच"
+    },
+    "my_profile": "माय प्रोफ़ाइल",
+    "logout": "लॉगआउट"
+  },
+
+  "endUser": {
+    "sidebar": {
+      "dashboard": "डैशबोर्ड",
+      "bills_and_payments": "बिल और भुगतान",
+      "meter_data": "मीटर डेटा",
+      "alerts_and_notifications": "अलर्ट और सूचनाएं",
+      "profile_and_settings": "प्रोफ़ाइल और सेटिंग्स",
+      "logs": "लॉग्स"
+    },
+
+    "dashboard": {
+      "welcome": "स्वागत है",
+      "last_sync_at": "अंतिम सिंक समय",
+      "as_of": "तारीख तक",
+      "data_source": "डेटा स्रोत:",
+      "zone": "ज़ोन:",
+      "mwh": "मेगावाट-घंटा",
+      "due_on": "नियत तिथि",
+      "pending": "लंबित",
+      "current_consumption": "वर्तमान खपत",
+      "this_months_bill": "इस महीने का बिल",
+      "outstanding_balance": "बकाया राशि",
+      "paid_on": "भुगतान तिथि",
+      "last_payment": "अंतिम भुगतान",
+      "electricity_consumption_overview": "बिजली खपत अवलोकन",
+      "price": "कीमत",
+      "month": "महीना",
+      "quick_actions": "त्वरित क्रियाएँ",
+      "day": "दिन",
+      "week": "सप्ताह",
+      "previous": "पिछला",
+      "current": "वर्तमान",
+      "pay_bill": "बिल भुगतान करें",
+      "view_bill_history": "विस्तृत उपयोग देखें",
+      "manage_notification": "सूचनाएँ प्रबंधित करें",
+      "tiny": "छोटा (M)",
+      "y_axis_hitting": "Y-अक्ष",
+      "ratio_modelling": "अनुपात मॉडलिंग",
+      "average_markdown": "औसत मार्कडाउन"
+    },
+
+    "bills": {
+      "my_bills": "मेरे बिल",
+      "month": "महीना",
+      "amount": "राशि",
+      "due_date": "नियत तिथि",
+      "status": "स्थिति",
+      "actions": "क्रियाएँ",
+      "pending": "लंबित",
+      "paid": "भुगतान किया गया",
+      "view": "देखें",
+      "pay": "भुगतान करें",
+      "previous": "पिछला",
+      "next": "अगला",
+      "note": "नोट: सभी बिल हर महीने की 1 तारीख को जनरेट होते हैं"
+    },
+
+    "bill_details": {
+      "bill_details": "बिल विवरण",
+      "date": "तारीख",
+      "starting": "प्रारंभ",
+      "convergents": "कन्वर्जेंट्स",
+      "unit": "यूनिट",
+      "download_pdf": "PDF डाउनलोड करें",
+      "print_bill": "बिल प्रिंट करें",
+      "pay_now": "अभी भुगतान करें"
+    },
+
+    "usage": {
+      "select_date_range": "तिथि सीमा चुनें",
+      "date": "तारीख",
+      "starting": "प्रारंभ",
+      "difference": "अंतर",
+      "notes": "नोट्स"
+    },
+
+    "profile": {
+      "profile_settings": "प्रोफ़ाइल और सेटिंग्स",
+      "profile": "प्रोफ़ाइल",
+      "security": "सुरक्षा",
+      "notification": "सूचना",
+      "name": "नाम",
+      "email1": "ईमेल",
+      "user_name": "उपयोगकर्ता नाम",
+      "mobile_no": "मोबाइल नंबर",
+      "save_and_continue": "सहेजें और जारी रखें",
+      "current_password": "वर्तमान पासवर्ड",
+      "new_password": "नया पासवर्ड",
+      "confirm_password": "पासवर्ड की पुष्टि करें",
+      "notifications_from": "आप इनसे सूचनाएँ प्राप्त कर सकते हैं",
+      "email": "ईमेल",
+      "sms": "SMS",
+      "push": "पुश",
+      "loading": "लोड हो रहा है",
+      "invalid_selection": "अमान्य चयन"
+    },
+
+    "alert_notification": {
+      "no_notification": "कोई सूचना चयनित नहीं है।"
+    },
+
+    "logs": {
+      "title": "लॉग्स पेज"
+    }
+  },
+
+  "zoneUser": {
+    "sidebar": {
+      "dashborad": "डैशबोर्ड",
+      "meter_management": "मीटर प्रबंधन",
+      "user_management": "उपयोगकर्ता प्रबंधन",
+      "reports_analytics": "रिपोर्ट्स और एनालिटिक्स",
+      "settings_notification": "सेटिंग्स और सूचनाएं"
+    },
+
+    "dashboard": {
+      "zone_dashboard": "ज़ोन डैशबोर्ड",
+      "active_meters": "सक्रिय मीटर",
+      "avg_usage": "औसत उपयोग",
+      "pending_alert": "लंबित अलर्ट",
+      "analytics_chart": "एनालिटिक्स चार्ट",
+      "week": "सप्ताह",
+      "month": "महीना",
+      "add_meter": "मीटर जोड़ें",
+      "generate_report": "रिपोर्ट बनाएँ"
+    },
+
+    "meter_management": {
+      "meter_management": "मीटर प्रबंधन",
+      "bulk_operations": "बल्क ऑपरेशंस",
+      "meter_id": "मीटर ID",
+      "zone": "ज़ोन",
+      "owner": "मालिक",
+      "status": "स्थिति",
+      "last_reading": "अंतिम रीडिंग",
+      "more_actions": "अधिक क्रियाएँ",
+      "view": "देखें",
+      "edit": "संपादित करें",
+      "active": "सक्रिय",
+      "import_csv": "CSV इम्पोर्ट करें",
+      "export_csv": "CSV एक्सपोर्ट करें",
+      "de_activate_meters": "मीटर निष्क्रिय करें"
+    },
+
+    "user_management": {
+      "user_management": "उपयोगकर्ता प्रबंधन",
+      "invite_user": "उपयोगकर्ता आमंत्रित करें",
+      "name": "नाम",
+      "email": "ईमेल",
+      "role": "भूमिका",
+      "zone": "ज़ोन",
+      "status": "स्थिति",
+      "id": "ID",
+      "more_actions": "अधिक क्रियाएँ",
+      "edit": "संपादित करें",
+      "active": "सक्रिय",
+      "reset_password": "पासवर्ड रीसेट",
+      "search": "खोजें.."
+    },
+
+    "reports_and_analytics": {
+      "reports_and_analytics": "रिपोर्ट्स और एनालिटिक्स",
+      "trend_of_energy_usage_over_time": "समय के साथ ऊर्जा उपयोग का ट्रेंड",
+      "compare_zone_consumption": "ज़ोन खपत की तुलना करें",
+      "zone": "ज़ोन",
+      "reports": "रिपोर्ट्स",
+      "export_as_csv": "CSV के रूप में एक्सपोर्ट करें",
+      "export_as_pdf": "PDF के रूप में एक्सपोर्ट करें",
+      "meter_id": "मीटर ID",
+      "dates": "तिथियाँ",
+      "user_name": "उपयोगकर्ता नाम",
+      "consumption": "खपत",
+      "status": "स्थिति",
+      "active": "सक्रिय",
+      "de-activated": "निष्क्रिय",
+      "previous": "पिछला",
+      "next": "अगला"
+    },
+
+    "setting_and_notifications": {
+      "user_management": "उपयोगकर्ता प्रबंधन",
+      "subtitle": "अपने अलर्ट नियम और संचार प्राथमिकताएँ प्रबंधित करें।",
+      "settings": "सेटिंग्स",
+      "notification": "सूचना",
+      "alert_threshold": "अलर्ट थ्रेशहोल्ड",
+      "alert_subtitle": "खपत सीमाएँ सेट करें जो स्वतः अलर्ट ट्रिगर करती हैं।",
+      "high_consumption": "उच्च खपत सीमा (kWh)",
+      "low_consumption": "कम खपत सीमा (kWh)",
+      "abnormal_reading": "असामान्य रीडिंग आवृत्ति (घंटे)",
+      "inactive_meters": "निष्क्रिय मीटर अवधि (दिन)",
+      "day": "दिन",
+      "sunday": "रविवार",
+      "save_and_continue": "सहेजें और जारी रखें"
+    }
+  },
+
+  "enterprise": {
+    "sidebar": {
+      "dashboard": "डैशबोर्ड",
+      "zone_management": "ज़ोन प्रबंधन",
+      "meter_management": "मीटर प्रबंधन",
+      "user_role_management": "उपयोगकर्ता और भूमिका प्रबंधन",
+      "audit_logs": "ऑडिट लॉग्स",
+      "setting_configuration": "सेटिंग्स और कॉन्फ़िगरेशन"
+    },
+
+    "dashboard": {
+      "enterprise_dashboard": "एंटरप्राइज़ डैशबोर्ड",
+      "recent_alerts": "हालिया अलर्ट",
+      "alert": "अलर्ट",
+      "total_zones": "कुल ज़ोन",
+      "total_meters": "कुल मीटर",
+      "critical_alerts": "गंभीर अलर्ट",
+      "average_consumption_per_zone": "प्रति ज़ोन औसत खपत"
+    },
+
+    "zone_management": {
+      "zone_management": "ज़ोन प्रबंधन",
+      "add_zone": "ज़ोन जोड़ें",
+      "zone_id": "ज़ोन ID",
+      "zone_name": "ज़ोन नाम",
+      "admin_assigned": "असाइन किया गया एडमिन",
+      "total_meters": "कुल मीटर",
+      "status": "स्थिति",
+      "more_action": "अधिक क्रियाएँ",
+      "view": "देखें",
+      "edit": "संपादित करें",
+      "delete": "हटाएँ",
+      "add_zone_title": "ज़ोन जोड़ने का डायलॉग",
+      "admin": "एडमिन",
+      "location": "स्थान",
+      "description": "विवरण",
+      "address_pincode": "पता / पिनकोड",
+      "description_here": "यहाँ विवरण लिखें"
+    },
+
+    "meter_management": {
+      "meter_id": "मीटर ID",
+      "search_placeholder": "खोजें..",
+      "global_meter_management": "ग्लोबल मीटर प्रबंधन",
+      "add_meter": "मीटर जोड़ें",
+      "zone": "ज़ोन",
+      "owner": "मालिक",
+      "status": "स्थिति",
+      "last_reading": "अंतिम रीडिंग",
+      "more_actions": "अधिक क्रियाएँ",
+      "view": "देखें",
+      "edit": "संपादित करें",
+      "delete": "हटाएँ",
+      "trend_chart_title": "हर ज़ोन की ऊर्जा उपयोग ट्रेंड"
+    },
+
+    "user_role_management": {
+      "user_role_management": "उपयोगकर्ता और भूमिका प्रबंधन",
+      "invite_user": "उपयोगकर्ता आमंत्रित करें",
+      "invite_user_description": "यह उपयोगकर्ता आमंत्रण डायलॉग है।",
+      "comparison_chart_title": "प्रत्येक वर्ष सक्रिय और निष्क्रिय उपयोगकर्ताओं की तुलना",
+      "user_id": "यूज़र ID",
+      "name": "नाम",
+      "email": "ईमेल",
+      "role": "भूमिका",
+      "status": "स्थिति"
+    },
+
+    "setting_configuration": {
+      "title": "सेटिंग्स और कॉन्फ़िगरेशन",
+      "subtitle": "एंटरप्राइज़-स्तरीय कॉन्फ़िगरेशन और इंटीग्रेशन प्रबंधित करें",
+      "policies_title": "नीतियाँ और नियम",
+      "policies_subtitle": "एंटरप्राइज़-व्यापी परिचालन नीतियाँ निर्धारित करें।",
+      "data_retention": "डेटा रिटेन्शन अवधि (दिनों में)",
+      "auto_logout": "ऑटो लॉगआउट टाइमर (मिनट)",
+      "audit_retention": "ऑडिट लॉग रिटेन्शन (दिनों में)",
+      "localization_title": "स्थानीयकरण",
+      "localization_subtitle": "क्षेत्रीय प्राथमिकताएँ और उपयोगकर्ता डिफ़ॉल्ट सेट करें।",
+      "timezone": "टाइमज़ोन",
+      "default_language": "डिफ़ॉल्ट भाषा",
+      "currency_format": "मुद्रा प्रारूप",
+      "save_changes": "परिवर्तन सहेजें",
+      "tab_settings": "सेटिंग्स",
+      "tab_notification": "सूचना"
+    },
+
+    "audit_logs": {
+      "title": "ऑडिट लॉग्स",
+      "status_filter": "स्थिति",
+      "search_placeholder": "खोजें...",
+      "export_csv": "CSV के रूप में एक्सपोर्ट करें",
+      "export_pdf": "PDF के रूप में एक्सपोर्ट करें",
+      "id": "ID",
+      "timestamp": "टाइमस्टैम्प",
+      "user": "उपयोगकर्ता",
+      "resource": "संसाधन",
+      "status": "स्थिति",
+      "active": "सक्रिय",
+      "deactivated": "निष्क्रिय",
+      "view": "देखें",
+      "edit": "संपादित करें",
+      "delete": "हटाएँ"
+    },
+
+    "invite_user_form": {
+      "dialog": "यह उपयोगकर्ता आमंत्रण डायलॉग है।",
+      "role": "भूमिका",
+      "zone": "ज़ोन",
+      "email": "ईमेल",
+      "invite_user": "उपयोगकर्ता आमंत्रित करें"
+    },
+
+    "leafletmap": {
+      "remove_zone": "ज़ोन हटाएँ",
+      "require_attention": "ध्यान आवश्यक",
+      "all_systems_normal": "सभी सिस्टम सामान्य",
+      "total_alerts": "कुल अलर्ट",
+      "critical_alerts": "गंभीर अलर्ट",
+      "active_meters": "सक्रिय मीटर",
+      "total_meters": "कुल मीटर"
+    }
+  },
+
+  "common": {
+    "no_data_available": "कोई डेटा उपलब्ध नहीं",
+    "invalid_selection": "अमान्य चयन"
+  },
+
+  "access_denied": {
+    "access_denied": "पहुंच अस्वीकृत",
+    "message": "आपको इस पेज तक पहुंचने की अनुमति नहीं है।",
+    "go_to_login": "लॉगिन पर जाएं",
+    "go_back": "वापस जाएं"
+  }
+}
